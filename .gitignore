@@ -12,12 +12,16 @@
 # ---------- 1) 凭据 / 登录态 / 票据（绝不入库）----------
 # .migu_state/<env>/ 下是 hmcer.json / b_cookies.json / passport_cookies.json / b_session.json
 .migu_state/
+# 存活测试的本地登录态配置（模板 live_config.example.json 入库）
+live_config.json
+live_testing/live_config.json
 
 # ---------- 2) 运行产物 ----------
 allure-results/
 allure-report/
 reports/
 artifacts/history/
+artifacts/live/
 # artifacts 下的 json 是"上一次跑"的现场（含带签名的支付链接、订单号），
 # 每跑一次就变 → 不入库，避免工作区一直 dirty、也避免外泄支付链接
 artifacts/*.json

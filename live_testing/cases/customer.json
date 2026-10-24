@@ -1,0 +1,4072 @@
+[
+  {
+    "id": "GET /agreement/config",
+    "service": "customer",
+    "method": "GET",
+    "path": "/agreement/config",
+    "tag": "store-agreement-v-2-controller",
+    "operation_id": "config_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /heart-beat",
+    "service": "customer",
+    "method": "GET",
+    "path": "/heart-beat",
+    "tag": "heart-beat-controller",
+    "operation_id": "heartbeat",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /miguQuery",
+    "service": "customer",
+    "method": "GET",
+    "path": "/miguQuery",
+    "tag": "migu-query-controller",
+    "operation_id": "query_3",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "mobile": "13800000000",
+      "pageNum": 1,
+      "pageSize": 10
+    },
+    "query_required": {
+      "mobile": "13800000000",
+      "pageSize": 10
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /pay/migu/notify",
+    "service": "customer",
+    "method": "POST",
+    "path": "/pay/migu/notify",
+    "tag": "migu-notify-controller",
+    "operation_id": "payNotify",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /pay/migu/refund-notify",
+    "service": "customer",
+    "method": "POST",
+    "path": "/pay/migu/refund-notify",
+    "tag": "migu-notify-controller",
+    "operation_id": "refundNotify",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /s/{shortCode}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/s/{shortCode}",
+    "tag": "short-link-rest-controller",
+    "operation_id": "redirect",
+    "summary": "",
+    "path_params": {
+      "shortCode": "1"
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/account/cancel",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/account/cancel",
+    "tag": "user-account-cancel-controller",
+    "operation_id": "accountCancel",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/account/cancel/check",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/account/cancel/check",
+    "tag": "user-account-cancel-controller",
+    "operation_id": "check_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/activity",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/activity",
+    "tag": "activity-product-rest-controller",
+    "operation_id": "searchProductFromCustomer",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "recommend": "false",
+      "pageSize": 10,
+      "pageIndex": 1,
+      "keyword": "",
+      "sortKey": "1",
+      "sortType": 1,
+      "startTime": "2026-01-01 00:00:00",
+      "endTime": "2026-01-01 00:00:00"
+    },
+    "query_required": {
+      "storeId": 1,
+      "pageSize": 10,
+      "pageIndex": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/activity/calendar",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/activity/calendar",
+    "tag": "activity-product-rest-controller",
+    "operation_id": "activityCalendar",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-01"
+    },
+    "query_required": {
+      "storeId": 1,
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-01"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/activity/tips",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/activity/tips",
+    "tag": "activity-product-tips-controller",
+    "operation_id": "findActivityTipsOld",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "productId": 1,
+      "orderId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/activity/tips/new",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/activity/tips/new",
+    "tag": "activity-product-tips-controller",
+    "operation_id": "findActivityTips",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "productId": 1,
+      "orderId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/activity/tips/refundRules",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/activity/tips/refundRules",
+    "tag": "activity-product-tips-controller",
+    "operation_id": "queryActivityRefundRules",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "productId": 1,
+      "orderId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/activity/{productId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/activity/{productId}",
+    "tag": "activity-product-rest-controller",
+    "operation_id": "findById",
+    "summary": "",
+    "path_params": {
+      "productId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/activity/{productId}/calendar",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/activity/{productId}/calendar",
+    "tag": "activity-product-rest-controller",
+    "operation_id": "activityProductCalendar",
+    "summary": "",
+    "path_params": {
+      "productId": 1
+    },
+    "query": {
+      "storeId": 1,
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-01"
+    },
+    "query_required": {
+      "storeId": 1,
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-01"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/activity/{productId}/events",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/activity/{productId}/events",
+    "tag": "activity-product-rest-controller",
+    "operation_id": "getActivityEvents",
+    "summary": "",
+    "path_params": {
+      "productId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/ad/location/{locationId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/ad/location/{locationId}",
+    "tag": "ad-rest-controller",
+    "operation_id": "queryAds",
+    "summary": "",
+    "path_params": {
+      "locationId": 1
+    },
+    "query": {
+      "storeId": 1,
+      "platform": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "platform": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/ad/splash",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/ad/splash",
+    "tag": "ad-rest-controller",
+    "operation_id": "getSplashAd",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/address",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/address",
+    "tag": "address-rest-controller",
+    "operation_id": "getAddressInfo",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/address",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/address",
+    "tag": "address-rest-controller",
+    "operation_id": "addAddress",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/address/district",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/address/district",
+    "tag": "address-rest-controller",
+    "operation_id": "getDistrict",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "parentCode": "1"
+    },
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/address/region",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/address/region",
+    "tag": "address-rest-controller",
+    "operation_id": "queryRegion",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "parentCode": "1",
+      "level": 1
+    },
+    "query_required": {
+      "level": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "DELETE /v1/address/{id}",
+    "service": "customer",
+    "method": "DELETE",
+    "path": "/v1/address/{id}",
+    "tag": "address-rest-controller",
+    "operation_id": "deleteUserAddress",
+    "summary": "",
+    "path_params": {
+      "id": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/address/{id}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/address/{id}",
+    "tag": "address-rest-controller",
+    "operation_id": "getUserAddressInfo",
+    "summary": "",
+    "path_params": {
+      "id": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "PUT /v1/address/{id}",
+    "service": "customer",
+    "method": "PUT",
+    "path": "/v1/address/{id}",
+    "tag": "address-rest-controller",
+    "operation_id": "updateUserAddress",
+    "summary": "",
+    "path_params": {
+      "id": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/cardCoupon/order/exchangeCode/record",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/cardCoupon/order/exchangeCode/record",
+    "tag": "card-coupon-order-rest-controller",
+    "operation_id": "exchangeCodeRecord",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/cardCoupon/order/exchangeCode/{code}/exchange",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/cardCoupon/order/exchangeCode/{code}/exchange",
+    "tag": "card-coupon-order-rest-controller",
+    "operation_id": "consumeExchangeCode",
+    "summary": "",
+    "path_params": {
+      "code": "1"
+    },
+    "query": {
+      "channel": 1,
+      "storeId": 1
+    },
+    "query_required": {
+      "channel": 1,
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/cardCoupon/order/template/{couponTemplateId}/make/order",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/cardCoupon/order/template/{couponTemplateId}/make/order",
+    "tag": "card-coupon-order-rest-controller",
+    "operation_id": "makeOrder_3",
+    "summary": "",
+    "path_params": {
+      "couponTemplateId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "userId": 1,
+      "couponTemplateId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/cardCoupon/order/{cardCouponOrderId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/cardCoupon/order/{cardCouponOrderId}",
+    "tag": "card-coupon-order-rest-controller",
+    "operation_id": "detail_2",
+    "summary": "",
+    "path_params": {
+      "cardCouponOrderId": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/coupon/deductCard/{deductCardId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/coupon/deductCard/{deductCardId}",
+    "tag": "coupon-rest-controller",
+    "operation_id": "getDeductCard",
+    "summary": "",
+    "path_params": {
+      "deductCardId": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/coupon/deductCardAvailableInfo",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/coupon/deductCardAvailableInfo",
+    "tag": "coupon-rest-controller",
+    "operation_id": "getDeductCardAvailableInfo",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "productId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/coupon/detail",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/coupon/detail",
+    "tag": "coupon-rest-controller",
+    "operation_id": "getCouponDetail",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "couponId": 1
+    },
+    "query_required": {
+      "couponId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/coupon/mine",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/coupon/mine",
+    "tag": "coupon-rest-controller",
+    "operation_id": "getMine_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "pageIndex": 1,
+      "pageSize": 20
+    },
+    "query_required": {
+      "storeId": 1,
+      "pageIndex": 1,
+      "pageSize": 20
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/coupon/mine/deductCard",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/coupon/mine/deductCard",
+    "tag": "coupon-rest-controller",
+    "operation_id": "getUserDeductCards",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/coupon/mineV2",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/coupon/mineV2",
+    "tag": "coupon-rest-controller",
+    "operation_id": "getMineV2",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "pageIndex": 1,
+      "pageSize": 10,
+      "couponTypeSet": [
+        "MAN_JIAN"
+      ],
+      "couponStatusSet": [
+        "UNAVAILABLE"
+      ]
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "safe_write"
+  },
+  {
+    "id": "GET /v1/coupon/purchase/deductCard",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/coupon/purchase/deductCard",
+    "tag": "coupon-rest-controller",
+    "operation_id": "getUserPurchaseDeductCards",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "scene": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/coupon/receive",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/coupon/receive",
+    "tag": "coupon-rest-controller",
+    "operation_id": "receiveCoupon",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "couponTemplateId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "couponTemplateId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/coupon/templates",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/coupon/templates",
+    "tag": "coupon-rest-controller",
+    "operation_id": "getTemplates",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "scene": 1,
+      "productId": 1,
+      "couponTypeList": "1"
+    },
+    "query_required": {
+      "storeId": 1,
+      "scene": 1,
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/coupon/templates/{couponTemplateId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/coupon/templates/{couponTemplateId}",
+    "tag": "coupon-rest-controller",
+    "operation_id": "getTemplateDetail_1",
+    "summary": "",
+    "path_params": {
+      "couponTemplateId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/coupon/{couponId}/deduct/record",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/coupon/{couponId}/deduct/record",
+    "tag": "coupon-rest-controller",
+    "operation_id": "queryDeductUseRecords",
+    "summary": "",
+    "path_params": {
+      "couponId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/couponTemplate/queryByTemplateIds",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/couponTemplate/queryByTemplateIds",
+    "tag": "coupon-template-rest-controller",
+    "operation_id": "queryByTemplateIds",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "safe_write"
+  },
+  {
+    "id": "POST /v1/couponTemplate/queryDeductCardInfoByTemplateIds",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/couponTemplate/queryDeductCardInfoByTemplateIds",
+    "tag": "coupon-template-rest-controller",
+    "operation_id": "queryDeductCardInfoByTemplateIds",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "safe_write"
+  },
+  {
+    "id": "GET /v1/custom-form/template",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/custom-form/template",
+    "tag": "order-custom-form-controller",
+    "operation_id": "getTemplateDetail",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "projectId": 1,
+      "storeId": 1
+    },
+    "query_required": {
+      "projectId": 1,
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/customer/getInfo",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/customer/getInfo",
+    "tag": "customer-user-rest-controller",
+    "operation_id": "getCustomerUserInfo",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/customer/getInfoV2",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/customer/getInfoV2",
+    "tag": "customer-user-rest-controller",
+    "operation_id": "getCustomerMemberInfo",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/customer/memberConfigInfo",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/customer/memberConfigInfo",
+    "tag": "customer-user-rest-controller",
+    "operation_id": "getMemberConfig",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "PUT /v1/customer/modifyBirthday",
+    "service": "customer",
+    "method": "PUT",
+    "path": "/v1/customer/modifyBirthday",
+    "tag": "customer-user-rest-controller",
+    "operation_id": "updateCustomerUserBirthday",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "PUT /v1/customer/modifyProfile",
+    "service": "customer",
+    "method": "PUT",
+    "path": "/v1/customer/modifyProfile",
+    "tag": "customer-user-rest-controller",
+    "operation_id": "updateCustomerUserInfo",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/customerService/migu/kfUrl",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/customerService/migu/kfUrl",
+    "tag": "migu-kf-controller",
+    "operation_id": "kfUrl",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/file/download",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/file/download",
+    "tag": "file-controller",
+    "operation_id": "getCommonFile",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "downloadUrl": "https://example.com"
+    },
+    "query_required": {
+      "downloadUrl": "https://example.com"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "safe_write"
+  },
+  {
+    "id": "POST /v1/form/info/add",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/form/info/add",
+    "tag": "form-submission-controller",
+    "operation_id": "addFormInfo",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "storeId": 1,
+      "formId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/goods/category",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/goods/category",
+    "tag": "goods-category-rest-controller",
+    "operation_id": "getCategoryCollection",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/humanVerification/captcha",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/humanVerification/captcha",
+    "tag": "risk-control-controller",
+    "operation_id": "captcha",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/humanVerification/unlock",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/humanVerification/unlock",
+    "tag": "risk-control-controller",
+    "operation_id": "unlock",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {
+      "uuid": "1",
+      "value": "1"
+    },
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/index/template",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/index/template",
+    "tag": "store-index-module-rest-controller",
+    "operation_id": "searchIndexModuleList",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "cityId": 1,
+      "moduleType": 1,
+      "templateId": 1,
+      "published": "false",
+      "userId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/index/template/cityInfo",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/index/template/cityInfo",
+    "tag": "store-index-module-rest-controller",
+    "operation_id": "cityInfoList",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "cityId": 1,
+      "longitude": 1,
+      "latitude": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/information",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/information",
+    "tag": "information-rest-controller",
+    "operation_id": "searchInformation",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "pageSize": 10,
+      "pageIndex": 1,
+      "keyword": "",
+      "sortKey": "1",
+      "sortType": 1,
+      "id": 1,
+      "type": 1,
+      "storeId": 1,
+      "storeName": "1",
+      "display": "false",
+      "visible": "false",
+      "positions": [
+        1
+      ],
+      "productId": 1,
+      "productIdList": [
+        1
+      ]
+    },
+    "query_required": {
+      "pageSize": 10,
+      "pageIndex": 1,
+      "storeId": 1,
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/information/{contentId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/information/{contentId}",
+    "tag": "information-rest-controller",
+    "operation_id": "detail_1",
+    "summary": "",
+    "path_params": {
+      "contentId": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/invitation/claim",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/invitation/claim",
+    "tag": "invitation-controller",
+    "operation_id": "claim",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {
+      "claimCode": "1"
+    },
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/invitation/info",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/invitation/info",
+    "tag": "invitation-controller",
+    "operation_id": "getInfo",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "claimCode": "1",
+      "confirmCode": "1"
+    },
+    "query_required": {
+      "claimCode": "1"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/invoice/pending/orders",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/invoice/pending/orders",
+    "tag": "invoice-controller",
+    "operation_id": "pendingOrders",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "pageIndex": 1,
+      "pageSize": 10
+    },
+    "query_required": {
+      "storeId": 1,
+      "pageIndex": 1,
+      "pageSize": 10
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/invoice/records/detail",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/invoice/records/detail",
+    "tag": "invoice-controller",
+    "operation_id": "getRecordDetail",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "invoiceId": 1,
+      "storeId": 1
+    },
+    "query_required": {
+      "invoiceId": 1,
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/invoice/records/list",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/invoice/records/list",
+    "tag": "invoice-controller",
+    "operation_id": "getRecordList",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/invoice/submit",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/invoice/submit",
+    "tag": "invoice-controller",
+    "operation_id": "submitInvoice",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {
+      "applyUserType": 1,
+      "orderIdList": [
+        1
+      ],
+      "title": "test",
+      "userEmail": "test@example.com"
+    },
+    "body_safe": {
+      "userId": 1,
+      "storeId": 1,
+      "status": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/invoice/submitEnc",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/invoice/submitEnc",
+    "tag": "invoice-controller",
+    "operation_id": "submitInvoiceEnc",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/logout",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/logout",
+    "tag": "user-login-controller",
+    "operation_id": "logout_1",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/memberPoints/sequence",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/memberPoints/sequence",
+    "tag": "member-points-controller",
+    "operation_id": "sequence",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "pageSize": 10,
+      "pageIndex": 1,
+      "keyword": "",
+      "sortKey": "1",
+      "sortType": 1,
+      "storeId": 1
+    },
+    "query_required": {
+      "pageSize": 10,
+      "pageIndex": 1,
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/migu/agreement",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/migu/agreement",
+    "tag": "migu-agreement-controller",
+    "operation_id": "current_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "type": "1"
+    },
+    "query_required": {
+      "storeId": 1,
+      "type": "1"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/migu/realNameInfo/save",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/migu/realNameInfo/save",
+    "tag": "migu-real-name-info-controller",
+    "operation_id": "save",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/migu/realNameInfo/search",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/migu/realNameInfo/search",
+    "tag": "migu-real-name-info-controller",
+    "operation_id": "query_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "pageIndex": 1,
+      "pageSize": 20
+    },
+    "query_required": {
+      "storeId": 1,
+      "pageIndex": 1,
+      "pageSize": 20
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "safe_write"
+  },
+  {
+    "id": "DELETE /v1/migu/realNameInfo/{idCardId}",
+    "service": "customer",
+    "method": "DELETE",
+    "path": "/v1/migu/realNameInfo/{idCardId}",
+    "tag": "migu-real-name-info-controller",
+    "operation_id": "delete_1",
+    "summary": "",
+    "path_params": {
+      "idCardId": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/miguPay/pay",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/miguPay/pay",
+    "tag": "migu-pay-rest-controller",
+    "operation_id": "payParams_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/miguPay/pay5003",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/miguPay/pay5003",
+    "tag": "migu-pay-rest-controller",
+    "operation_id": "payParams5003",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/miguPay/payDetail",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/miguPay/payDetail",
+    "tag": "migu-pay-rest-controller",
+    "operation_id": "payDetail_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "subjectType": 1,
+      "subjectId": 1
+    },
+    "query_required": {
+      "subjectType": 1,
+      "subjectId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/miguPay/payEnc",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/miguPay/payEnc",
+    "tag": "migu-pay-rest-controller",
+    "operation_id": "payParamsEnc",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/miguPay/paySuccess",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/miguPay/paySuccess",
+    "tag": "migu-pay-rest-controller",
+    "operation_id": "paySuccess_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "subjectType": 1,
+      "subjectId": 1
+    },
+    "query_required": {
+      "subjectType": 1,
+      "subjectId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/miguPay/refund",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/miguPay/refund",
+    "tag": "migu-pay-rest-controller",
+    "operation_id": "refund",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/miguPay/refundEnc",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/miguPay/refundEnc",
+    "tag": "migu-pay-rest-controller",
+    "operation_id": "refundEnc",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/moneyAccount/config",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/moneyAccount/config",
+    "tag": "money-account-controller",
+    "operation_id": "getConfigWithBalance",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/moneyAccount/sequenceList",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/moneyAccount/sequenceList",
+    "tag": "member-money-account-controller",
+    "operation_id": "sequenceList",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "pageIndex": 1,
+      "pageSize": 20
+    },
+    "query_required": {
+      "pageIndex": 1,
+      "pageSize": 20
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/order/activitySnapShot/{unifiedOrderId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/order/activitySnapShot/{unifiedOrderId}",
+    "tag": "order-rest-controller",
+    "operation_id": "getOrderActivitySnapshot",
+    "summary": "",
+    "path_params": {
+      "unifiedOrderId": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/order/eticket/migu/eticketEnc",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/order/eticket/migu/eticketEnc",
+    "tag": "order-rest-controller",
+    "operation_id": "listElectronicVouchersEnc",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "orderId": "1"
+    },
+    "query_required": {
+      "storeId": 1,
+      "orderId": "1"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/order/goodsSnapShot/{unifiedOrderId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/order/goodsSnapShot/{unifiedOrderId}",
+    "tag": "order-rest-controller",
+    "operation_id": "getOrderGoodsSnapshot",
+    "summary": "",
+    "path_params": {
+      "unifiedOrderId": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/order/payPreCheck/{unifiedOrderId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/order/payPreCheck/{unifiedOrderId}",
+    "tag": "order-rest-controller",
+    "operation_id": "payPreCheck",
+    "summary": "",
+    "path_params": {
+      "unifiedOrderId": "1"
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/order/refund/{unifiedOrderId}/pre",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/order/refund/{unifiedOrderId}/pre",
+    "tag": "order-rest-controller",
+    "operation_id": "orderRefundPre",
+    "summary": "",
+    "path_params": {
+      "unifiedOrderId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/order/refund/{unifiedOrderId}/submit",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/order/refund/{unifiedOrderId}/submit",
+    "tag": "order-rest-controller",
+    "operation_id": "submitOrderRefund",
+    "summary": "",
+    "path_params": {
+      "unifiedOrderId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "type": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/order/{orderId}/cancel",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/order/{orderId}/cancel",
+    "tag": "order-rest-controller",
+    "operation_id": "cancelOrder",
+    "summary": "",
+    "path_params": {
+      "orderId": 1
+    },
+    "query": {
+      "reason": "1"
+    },
+    "query_required": {
+      "reason": "1"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/order/{unifiedOrderId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/order/{unifiedOrderId}",
+    "tag": "order-rest-controller",
+    "operation_id": "queryDetail",
+    "summary": "",
+    "path_params": {
+      "unifiedOrderId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/order/{unifiedOrderId}/eticket",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/order/{unifiedOrderId}/eticket",
+    "tag": "order-rest-controller",
+    "operation_id": "listElectronicVouchers",
+    "summary": "",
+    "path_params": {
+      "unifiedOrderId": "1"
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/order/{unifiedOrderId}/expressInfo",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/order/{unifiedOrderId}/expressInfo",
+    "tag": "order-rest-controller",
+    "operation_id": "expressInfo",
+    "summary": "",
+    "path_params": {
+      "unifiedOrderId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/order/{unifiedOrderId}/received",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/order/{unifiedOrderId}/received",
+    "tag": "order-rest-controller",
+    "operation_id": "received",
+    "summary": "",
+    "path_params": {
+      "unifiedOrderId": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/poster",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/poster",
+    "tag": "poster-controller",
+    "operation_id": "createPoster",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {
+      "imgUrl": "https://example.com",
+      "locationStr": "1",
+      "period": "1",
+      "title": "test",
+      "url": "https://example.com"
+    },
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/prefabricate/product/config",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/prefabricate/product/config",
+    "tag": "prefabricate-controller",
+    "operation_id": "queryBindUserInfoConfig",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "productId": 1
+    },
+    "query_required": {
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/prefabricate/product/message",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/prefabricate/product/message",
+    "tag": "prefabricate-controller",
+    "operation_id": "querySkuOpenSubStatus",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "productId": 1
+    },
+    "query_required": {
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/prefabricate/product/message",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/prefabricate/product/message",
+    "tag": "prefabricate-controller",
+    "operation_id": "subSkuOpenMessage",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "productId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/prefabricate/product/realNameInfo",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/prefabricate/product/realNameInfo",
+    "tag": "prefabricate-controller",
+    "operation_id": "bindUserRealName",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "productId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/prefabricate/product/userAddress",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/prefabricate/product/userAddress",
+    "tag": "prefabricate-controller",
+    "operation_id": "bindUserAddress",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "productId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/product/stock/message",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/product/stock/message",
+    "tag": "product-stock-message-controller",
+    "operation_id": "queryProductStockMessage",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "hmProductId": 1
+    },
+    "query_required": {
+      "hmProductId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/product/stock/message",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/product/stock/message",
+    "tag": "product-stock-message-controller",
+    "operation_id": "subProductStockMessage",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "storeId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/promotion/newUserGift/rule",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/promotion/newUserGift/rule",
+    "tag": "promotion-activity-controller",
+    "operation_id": "getNewUserGiftConfig",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/seat/event/{eventId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/seat/event/{eventId}",
+    "tag": "seat-controller",
+    "operation_id": "getEventSeatInfo",
+    "summary": "",
+    "path_params": {
+      "eventId": 1
+    },
+    "query": {
+      "hmProductId": 1
+    },
+    "query_required": {
+      "hmProductId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/shop",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/shop",
+    "tag": "store-rest-controller",
+    "operation_id": "getStoreById",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/shop/addition/order/makeOrder",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/shop/addition/order/makeOrder",
+    "tag": "shop-addition-order-rest-controller",
+    "operation_id": "makeOrder_1",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "userId": 1,
+      "storeId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/shop/ext",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/shop/ext",
+    "tag": "store-rest-controller",
+    "operation_id": "getShopTradeStoreExtDataVO",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/shop/invoice",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/shop/invoice",
+    "tag": "store-rest-controller",
+    "operation_id": "getShopTradeStoreInvoiceDataVO",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/shopTrade/purchaseOrder/index/{orderId}/refundedTicketIndexes",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/shopTrade/purchaseOrder/index/{orderId}/refundedTicketIndexes",
+    "tag": "partial-refund-ticket-index-controller",
+    "operation_id": "list",
+    "summary": "",
+    "path_params": {
+      "orderId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/sms/sendUserVerifyCode",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/sms/sendUserVerifyCode",
+    "tag": "sms-rest-controller",
+    "operation_id": "sendSmsCode",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/store/agreement",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/store/agreement",
+    "tag": "store-agreement-controller",
+    "operation_id": "current",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "channel": "1",
+      "type": "1"
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/ticketCategory",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/ticketCategory",
+    "tag": "activity-product-rest-controller",
+    "operation_id": "getTicketCategories",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "productId": 1,
+      "eventId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "productId": 1,
+      "eventId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/tickets",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/tickets",
+    "tag": "activity-product-rest-controller",
+    "operation_id": "getTickets",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "ticketCategoryId": 1,
+      "productId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "ticketCategoryId": 1,
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/tpLogin/check",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/tpLogin/check",
+    "tag": "tp-userlogin-controller",
+    "operation_id": "tpLoginCheck",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/ugc/comment",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/ugc/comment",
+    "tag": "comment-rest-controller",
+    "operation_id": "query_2",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "type": 1,
+      "subjectId": 1,
+      "pageIndex": 1,
+      "pageSize": 10
+    },
+    "query_required": {
+      "type": 1,
+      "subjectId": 1,
+      "pageIndex": 1,
+      "pageSize": 10
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/ugc/comment",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/ugc/comment",
+    "tag": "comment-rest-controller",
+    "operation_id": "addShopComment",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "storeId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/ugc/like/list",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/ugc/like/list",
+    "tag": "like-rest-controller",
+    "operation_id": "getLikeList",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "bizType": 1,
+      "pageIndex": 1,
+      "pageSize": 10,
+      "status": 1,
+      "keyword": "",
+      "includeOffSale": "false",
+      "productType": 1,
+      "categoryId": 1,
+      "startTime": 1,
+      "endTime": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "bizType": 1,
+      "pageIndex": 1,
+      "pageSize": 10
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/ugc/like/status",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/ugc/like/status",
+    "tag": "like-rest-controller",
+    "operation_id": "getLikeStatus",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "bizType": 1,
+      "bizId": "1"
+    },
+    "query_required": {
+      "bizType": 1,
+      "bizId": "1"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "PUT /v1/ugc/like/status",
+    "service": "customer",
+    "method": "PUT",
+    "path": "/v1/ugc/like/status",
+    "tag": "like-rest-controller",
+    "operation_id": "likeOrDislike",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {
+      "bizId": "1",
+      "bizType": 1,
+      "status": 1
+    },
+    "body_safe": {
+      "status": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/ugc/pv/log",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/ugc/pv/log",
+    "tag": "page-views-rest-controller",
+    "operation_id": "logPageViews",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/unifiedPay/pay",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/unifiedPay/pay",
+    "tag": "unified-pay-rest-controller",
+    "operation_id": "payParams",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {
+      "tpid": "1"
+    },
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/unifiedPay/payDetail",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/unifiedPay/payDetail",
+    "tag": "unified-pay-rest-controller",
+    "operation_id": "payDetail",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "subjectType": 1,
+      "subjectId": 1
+    },
+    "query_required": {
+      "subjectType": 1,
+      "subjectId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/unifiedPay/paySuccess",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/unifiedPay/paySuccess",
+    "tag": "unified-pay-rest-controller",
+    "operation_id": "paySuccess",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "subjectType": 1,
+      "subjectId": 1
+    },
+    "query_required": {
+      "subjectType": 1,
+      "subjectId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v1/user/config",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/user/config",
+    "tag": "user-config-controller",
+    "operation_id": "getUserConfig",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "key": "1"
+    },
+    "query_required": {
+      "key": "1"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/user/config",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/config",
+    "tag": "user-config-controller",
+    "operation_id": "updateOrCreate",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/user/config/list",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/user/config/list",
+    "tag": "user-config-controller",
+    "operation_id": "listUserConfig",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/user/home",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/user/home",
+    "tag": "user-home-rest-controller",
+    "operation_id": "getMine",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {
+      "tpid": "1"
+    },
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v1/user/realNameInfo/project/relate/first",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/realNameInfo/project/relate/first",
+    "tag": "user-real-name-info-controller",
+    "operation_id": "fristRelateProject",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/user/realNameInfo/project/relate/first/enc",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/realNameInfo/project/relate/first/enc",
+    "tag": "user-real-name-info-controller",
+    "operation_id": "fristRelateProjectEnc",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/user/realNameInfo/project/relate/save",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/realNameInfo/project/relate/save",
+    "tag": "user-real-name-info-controller",
+    "operation_id": "savefristRelateProject",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": {
+      "projectId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/user/realNameInfo/save",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/realNameInfo/save",
+    "tag": "user-real-name-info-controller",
+    "operation_id": "saveOrUpdate",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/user/realNameInfo/saveEnc",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/realNameInfo/saveEnc",
+    "tag": "user-real-name-info-controller",
+    "operation_id": "saveOrUpdateEnc",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/user/realNameInfo/saveInt",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/realNameInfo/saveInt",
+    "tag": "user-real-name-info-controller",
+    "operation_id": "saveOrUpdateInt",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v1/user/realNameInfo/search",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/realNameInfo/search",
+    "tag": "user-real-name-info-controller",
+    "operation_id": "query",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "pageIndex": 1,
+      "pageSize": 20
+    },
+    "query_required": {
+      "storeId": 1,
+      "pageIndex": 1,
+      "pageSize": 20
+    },
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "safe_write"
+  },
+  {
+    "id": "DELETE /v1/user/realNameInfo/{idCardId}",
+    "service": "customer",
+    "method": "DELETE",
+    "path": "/v1/user/realNameInfo/{idCardId}",
+    "tag": "user-real-name-info-controller",
+    "operation_id": "delete",
+    "summary": "",
+    "path_params": {
+      "idCardId": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/user/tpLogin",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/tpLogin",
+    "tag": "tp-userlogin-controller",
+    "operation_id": "wechatMpTpLogin_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {
+      "X-UTM-ChannelCode": "1"
+    },
+    "body": {},
+    "body_required": {
+      "code": "1",
+      "purePhoneNumber": "13800000000",
+      "type": 1,
+      "verifyCode": "1"
+    },
+    "body_safe": {
+      "type": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "POST /v1/user/tpRegister",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v1/user/tpRegister",
+    "tag": "tp-userlogin-controller",
+    "operation_id": "tpRegisterAndBindPhone_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {
+      "tpid": "1"
+    },
+    "headers": {
+      "X-UTM-ChannelCode": "1"
+    },
+    "body": {},
+    "body_required": {
+      "type": 1,
+      "verifyCode": "1"
+    },
+    "body_safe": {
+      "type": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v1/wordOfMouth",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/wordOfMouth",
+    "tag": "word-of-mouth-rest-controller",
+    "operation_id": "searchWordOfMouth",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "pageSize": 10,
+      "pageIndex": 1,
+      "keyword": "",
+      "sortKey": "1",
+      "sortType": 1,
+      "contentId": 1,
+      "storeId": 1,
+      "storeName": "1",
+      "display": "false"
+    },
+    "query_required": {
+      "pageSize": 10,
+      "pageIndex": 1,
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v1/wordOfMouth/{contentId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v1/wordOfMouth/{contentId}",
+    "tag": "word-of-mouth-rest-controller",
+    "operation_id": "detail",
+    "summary": "",
+    "path_params": {
+      "contentId": 1
+    },
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v2/login/mobileNo",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v2/login/mobileNo",
+    "tag": "user-login-controller-v-2",
+    "operation_id": "mobileLogin",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {
+      "X-UTM-ChannelCode": "1"
+    },
+    "body": {},
+    "body_required": {
+      "verifyCode": "1"
+    },
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v2/order/confirm",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/order/confirm",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "confirmOrder",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "userId": 1,
+      "storeId": 1,
+      "hmProductId": 1,
+      "skuId": 1,
+      "count": 10,
+      "seatIds": "1"
+    },
+    "query_required": {
+      "storeId": 1,
+      "skuId": 1,
+      "count": 10
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v2/order/judgeTicketPrice",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/order/judgeTicketPrice",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "judgeTicketPrice",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "cardId": 1,
+      "projectId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "cardId": 1,
+      "projectId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v2/order/makeOrder",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v2/order/makeOrder",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "makeOrder",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {
+      "order-channel": "WECHAT_MINI"
+    },
+    "body": {},
+    "body_required": {
+      "count": 10,
+      "skuId": 1
+    },
+    "body_safe": {
+      "userId": 1,
+      "skuId": 1,
+      "storeId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v2/order/makeOrderAsyncCancel",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v2/order/makeOrderAsyncCancel",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "makeOrderAsyncCancel",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "taskId": "1"
+    },
+    "query_required": {
+      "taskId": "1"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v2/order/makeOrderAsyncStatus",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/order/makeOrderAsyncStatus",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "makeOrderAsyncStatus",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "taskId": "1"
+    },
+    "query_required": {
+      "taskId": "1"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v2/order/makeOrderCheck",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v2/order/makeOrderCheck",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "makeOrderCheck",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {
+      "count": 10,
+      "skuId": 1
+    },
+    "body_safe": {
+      "skuId": 1,
+      "storeId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "POST /v2/order/makeOrderEnc",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v2/order/makeOrderEnc",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "makeOrderEnc",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {
+      "order-channel": "WECHAT_MINI"
+    },
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v2/order/mine",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/order/mine",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "myOrders",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "type": 1,
+      "userId": 1,
+      "pageIndex": 1,
+      "pageSize": 10,
+      "storeId": 1
+    },
+    "query_required": {
+      "pageIndex": 1,
+      "pageSize": 10,
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v2/order/mine/tickets",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/order/mine/tickets",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "myTickets",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "status": "1",
+      "userId": 1,
+      "pageIndex": 1,
+      "pageSize": 10,
+      "storeId": 1,
+      "validStatus": "false"
+    },
+    "query_required": {
+      "pageIndex": 1,
+      "pageSize": 10,
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v2/order/outOrderNo",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/order/outOrderNo",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "getByOutOrderNo",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "outOrderNo": "1"
+    },
+    "query_required": {
+      "outOrderNo": "1"
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v2/order/queryMyExpressOrderList",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/order/queryMyExpressOrderList",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "queryMyExpressOrderList",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {
+      "tpid": "1"
+    },
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v2/order/thirdBookInfo",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v2/order/thirdBookInfo",
+    "tag": "order-v-2-rest-controller",
+    "operation_id": "thirdBookInfo",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {},
+    "body_safe": null,
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "write"
+  },
+  {
+    "id": "GET /v2/priorityPurchase/qualification",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/priorityPurchase/qualification",
+    "tag": "priority-purchase-rest-controller",
+    "operation_id": "qualification",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "eventId": 1,
+      "skuId": 1,
+      "storeId": 1
+    },
+    "query_required": {
+      "eventId": 1,
+      "skuId": 1,
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v2/privateDomain/guides",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/privateDomain/guides",
+    "tag": "private-domain-rest-controller",
+    "operation_id": "guides",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "productId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "productId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v2/privilegeCode/myCodes",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/privilegeCode/myCodes",
+    "tag": "privilege-code-rest-controller",
+    "operation_id": "myCodes",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "skuId": 1
+    },
+    "query_required": {
+      "skuId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v2/privilegeCode/validate",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v2/privilegeCode/validate",
+    "tag": "privilege-code-rest-controller",
+    "operation_id": "validate",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {},
+    "body": {},
+    "body_required": {
+      "code": "1",
+      "skuId": 1
+    },
+    "body_safe": {
+      "skuId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "safe_write"
+  },
+  {
+    "id": "GET /v2/product",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/product",
+    "tag": "shop-product-rest-controller",
+    "operation_id": "searchProduct",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1,
+      "pageSize": 10,
+      "pageIndex": 1,
+      "keyword": "",
+      "sortKey": "1",
+      "sortType": 1,
+      "sortParam": "1",
+      "userId": 1,
+      "sellingStatus": "false",
+      "recommend": "false",
+      "deliveryType": [
+        1
+      ],
+      "parentCategoryId": 1,
+      "categoryId": 1,
+      "distributionGoods": "false",
+      "isHot": "false",
+      "distributionStatus": 1,
+      "categoryGroup": 1,
+      "productGroupId": 1,
+      "shopProductSourceType": 1,
+      "startTimeType": 1,
+      "startTime": "2026-01-01 00:00:00",
+      "endTime": "2026-01-01 00:00:00",
+      "usageScenarios": "1",
+      "cityId": 1
+    },
+    "query_required": {
+      "storeId": 1,
+      "pageSize": 10,
+      "pageIndex": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v2/product/{productId}",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/product/{productId}",
+    "tag": "shop-product-rest-controller",
+    "operation_id": "getShopProduct",
+    "summary": "",
+    "path_params": {
+      "productId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v2/product/{productId}/button/status",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/product/{productId}/button/status",
+    "tag": "shop-product-rest-controller",
+    "operation_id": "getShopButonStatus",
+    "summary": "",
+    "path_params": {
+      "productId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v2/product/{productId}/sku",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v2/product/{productId}/sku",
+    "tag": "shop-product-rest-controller",
+    "operation_id": "getShopProductOnSale",
+    "summary": "",
+    "path_params": {
+      "productId": 1
+    },
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v3/home",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v3/home",
+    "tag": "activity-product-v-3-rest-controller",
+    "operation_id": "home_1",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "POST /v3/login",
+    "service": "customer",
+    "method": "POST",
+    "path": "/v3/login",
+    "tag": "user-login-controller-v-3",
+    "operation_id": "login",
+    "summary": "",
+    "path_params": {},
+    "query": {},
+    "query_required": {},
+    "cookies": {},
+    "headers": {
+      "X-UTM-ChannelCode": "1"
+    },
+    "body": {},
+    "body_required": {
+      "storeId": 1,
+      "token": "1"
+    },
+    "body_safe": {
+      "storeId": 1
+    },
+    "body_content_type": "application/json",
+    "multipart": false,
+    "risk": "dangerous"
+  },
+  {
+    "id": "GET /v3/product/group",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v3/product/group",
+    "tag": "shop-trade-product-group-v-3-rest-controller",
+    "operation_id": "queryShopGroupInfo",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  },
+  {
+    "id": "GET /v4/home",
+    "service": "customer",
+    "method": "GET",
+    "path": "/v4/home",
+    "tag": "home-rest-controller",
+    "operation_id": "home",
+    "summary": "",
+    "path_params": {},
+    "query": {
+      "storeId": 1
+    },
+    "query_required": {
+      "storeId": 1
+    },
+    "cookies": {},
+    "headers": {},
+    "body": null,
+    "body_required": null,
+    "body_safe": null,
+    "body_content_type": null,
+    "multipart": false,
+    "risk": "read"
+  }
+]

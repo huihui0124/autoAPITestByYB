@@ -18,6 +18,7 @@
 | `catalog.json` | **测试专用商品清单**（C 端下单白名单），test / prod 两段 |
 | `migu_api/` | 框架：`config`(环境) `passport`/`c2login`(C 端登录态) `bticket`/`badmin`(B 端) `catalog`(白名单) `client` `fundgate`(支付闸门) |
 | `test_*.py` | 用例，按 marker 分组：`smoke` `catalog` `chain` `b_verify` `refund` `real_pay` |
+| `live_testing/` | **接口存活测试**（OpenAPI 自动生成，默认只读 GET、默认不收集）：见 `live_testing/README.md` |
 | `tools/catalog_ctl.py` | `run.sh catalog` 的实现（list/show/find/check/drift/add） |
 | `tools/onsale_ctl.py` | `run.sh onsale` 的实现（商品上架/下架）——**建好项目后必须上架**，否则 C 端报「商品已下架」 |
 | `tools/probe/` | **一次性**环境建设脚本（建项目、克隆座位图）+ 环境快照数据 |
@@ -36,6 +37,10 @@ brew install allure                      # 生成可视化报告用
 ./run.sh b                               # 核销链路：C 端出票 → B 端核销 → 订单已完成
 ./run.sh                                 # 全量（默认跳过要花真钱的用例）+ Allure 报告
 ./run.sh all --open                      # 跑完自动打开报告
+
+# 接口存活测试（OpenAPI 生成，只读 GET；需先准备登录态，见 live_testing/README.md）
+python -m live_testing.generator
+MIGU_LIVE=1 python -m pytest live_testing -m live -q
 ```
 
 登录态不在时（跑前 `./run.sh smoke` 会告诉你）：
