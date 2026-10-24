@@ -1,0 +1,34 @@
+{
+ "id": 26133,
+ "storeId": 1,
+ "refundSupport": 1,
+ "inventoryRecoverySupport": 1,
+ "refundTicketAllowTimes": 0,
+ "refundRuleConfigStatus": 1,
+ "onSale": false,
+ "purchaseStatus": 1,
+ "purchaseTimeStatus": 2,
+ "activityId": 222945,
+ "tips": "",
+ "refundRuleList": [
+  {
+   "id": 2409,
+   "relations": [
+    {
+     "id": 3355,
+     "bizType": "ACTIVITY_EVENT",
+     "bizId": 7904071
+    }
+   ],
+   "ruleDetails": [
+    {
+     "id": 6757,
+     "startTime": 1790692560000,
+     "endTime": 1857047760000,
+     "refundMode": "FREE",
+     "refundAmount": 0.0
+    }
+   ]
+  }
+ ]
+}

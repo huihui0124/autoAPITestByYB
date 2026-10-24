@@ -1,0 +1,2416 @@
+{
+ "222945": {
+  "productId": 222945,
+  "events": [
+   {
+    "eventId": 7904071,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853839800000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904077,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637339
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637339,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904079,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637341
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637341,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904081,
+      "name": "未开售0元",
+      "price": 0,
+      "skuIds": [
+       10637343
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637343,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904083,
+      "name": "限购2张",
+      "price": 0,
+      "skuIds": [
+       10637357
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637357,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904085,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637359
+      ],
+      "skuUsable": []
+     }
+    ]
+   },
+   {
+    "eventId": 7904073,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853926200000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904077,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637347
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637347,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904079,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637351
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637351,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904081,
+      "name": "未开售0元",
+      "price": 0,
+      "skuIds": [
+       10637355
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637355,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904083,
+      "name": "限购2张",
+      "price": 0,
+      "skuIds": [
+       10637363
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637363,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904085,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637367
+      ],
+      "skuUsable": []
+     }
+    ]
+   },
+   {
+    "eventId": 7904075,
+    "eventName": "多次核销场次（3次）",
+    "maxVerifyCount": 3,
+    "startTime": 1854012600000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904077,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637345
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637345,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904079,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637349
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637349,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904081,
+      "name": "未开售0元",
+      "price": 0,
+      "skuIds": [
+       10637353
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637353,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904083,
+      "name": "限购2张",
+      "price": 0,
+      "skuIds": [
+       10637361
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637361,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904085,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637365
+      ],
+      "skuUsable": []
+     }
+    ]
+   }
+  ]
+ },
+ "222947": {
+  "productId": 222947,
+  "events": [
+   {
+    "eventId": 7904115,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853839800000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904121,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637379
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637379,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904123,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637381
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637381,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904125,
+      "name": "未开售0元",
+      "price": 0,
+      "skuIds": [
+       10637383
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637383,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904127,
+      "name": "限购2张",
+      "price": 0,
+      "skuIds": [
+       10637385
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637385,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904129,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637387
+      ],
+      "skuUsable": []
+     }
+    ]
+   },
+   {
+    "eventId": 7904117,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853926200000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904121,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637369
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637369,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904123,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637371
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637371,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904125,
+      "name": "未开售0元",
+      "price": 0,
+      "skuIds": [
+       10637373
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637373,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904127,
+      "name": "限购2张",
+      "price": 0,
+      "skuIds": [
+       10637375
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637375,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904129,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637377
+      ],
+      "skuUsable": []
+     }
+    ]
+   }
+  ]
+ },
+ "222949": {
+  "productId": 222949,
+  "events": [
+   {
+    "eventId": 7904159,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853839800000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904163,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637399
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637399,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904165,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637401
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637401,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904167,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637403
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637403,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904169,
+      "name": "限购2张",
+      "price": 0,
+      "skuIds": [
+       10637405
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637405,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904171,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637407
+      ],
+      "skuUsable": []
+     }
+    ]
+   },
+   {
+    "eventId": 7904161,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1854617400000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904163,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637389
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637389,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904165,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637391
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637391,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904167,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637393
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637393,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904169,
+      "name": "限购2张",
+      "price": 0,
+      "skuIds": [
+       10637395
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637395,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904171,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637397
+      ],
+      "skuUsable": []
+     }
+    ]
+   }
+  ]
+ },
+ "222951": {
+  "productId": 222951,
+  "events": [
+   {
+    "eventId": 7904201,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1852543800000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904203,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637409
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637409,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904205,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637411
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637411,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904207,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637413
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637413,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904213,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637417
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904215,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637419
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637419,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904217,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853667000000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904203,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637423
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637423,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904205,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637427
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637427,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904207,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637431
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637431,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904213,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637439
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904215,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637443
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637443,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904219,
+    "eventName": "多次核销场次（3次）",
+    "maxVerifyCount": 3,
+    "startTime": 1854271800000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904203,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637421
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637421,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904205,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637425
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637425,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904207,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637429
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637429,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904213,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637437
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904215,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637441
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637441,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "222953": {
+  "productId": 222953,
+  "events": [
+   {
+    "eventId": 7904249,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1852457400000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904253,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637445
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637445,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904255,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637447
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637447,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904257,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637449
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637449,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904261,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637453
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904263,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637455
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637455,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904251,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1852889400000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904253,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637457
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637457,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904255,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637459
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637459,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904257,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637461
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637461,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904261,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637465
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904263,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637467
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637467,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "222955": {
+  "productId": 222955,
+  "events": [
+   {
+    "eventId": 7904293,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853148600000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904299,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637481
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637481,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904301,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637485
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637485,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904303,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637489
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637489,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904305,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637493
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904307,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637497
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637497,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904295,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1852975800000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904299,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637469
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637469,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904301,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637471
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637471,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904303,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637473
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637473,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904305,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637475
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904307,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637477
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637477,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904297,
+    "eventName": "多次核销场次（3次）",
+    "maxVerifyCount": 3,
+    "startTime": 1853580600000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904299,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637479
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637479,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904301,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637483
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637483,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904303,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637487
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637487,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904305,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637491
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904307,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637495
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637495,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "222957": {
+  "productId": 222957,
+  "events": [
+   {
+    "eventId": 7904337,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853148600000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904343,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637499
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637499,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904345,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637501
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637501,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904347,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637503
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637503,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904349,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637505
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904351,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637507
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637507,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904339,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853667000000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904343,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637509
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637509,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904345,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637513
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637513,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904347,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637517
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637517,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904349,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637521
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904351,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637525
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637525,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904341,
+    "eventName": "多次核销场次（3次）",
+    "maxVerifyCount": 3,
+    "startTime": 1853494200000,
+    "canSaleNum": 399996,
+    "tickets": [
+     {
+      "ticketId": 7904343,
+      "name": "0元票档",
+      "price": 0,
+      "skuIds": [
+       10637511
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637511,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904345,
+      "name": "0.01元票档",
+      "price": 0.01,
+      "skuIds": [
+       10637515
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637515,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904347,
+      "name": "未开售票档",
+      "price": 0,
+      "skuIds": [
+       10637519
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637519,
+        "count": 99999
+       }
+      ]
+     },
+     {
+      "ticketId": 7904349,
+      "name": "售罄票档",
+      "price": 0,
+      "skuIds": [
+       10637523
+      ],
+      "skuUsable": []
+     },
+     {
+      "ticketId": 7904351,
+      "name": "18+可购",
+      "price": 0,
+      "skuIds": [
+       10637527
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637527,
+        "count": 99999
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "222959": {
+  "productId": 222959,
+  "events": [
+   {
+    "eventId": 7904381,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1852451220000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904387,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637529
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637529,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904389,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637531
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637531,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904391,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637533
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637533,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904393,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637535
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637535,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904395,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637537
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637537,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904383,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1852537620000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904387,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637539
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637539,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904389,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637541
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637541,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904391,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637543
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637543,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904393,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637545
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637545,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904395,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637547
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637547,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904385,
+    "eventName": "多次核销场次",
+    "maxVerifyCount": 3,
+    "startTime": 1852624020000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904387,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637549
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637549,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904389,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637551
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637551,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904391,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637553
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637553,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904393,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637555
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637555,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904395,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637557
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637557,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "222961": {
+  "productId": 222961,
+  "events": [
+   {
+    "eventId": 7904429,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853067300000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904433,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637559
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637559,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904435,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637561
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637561,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904437,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637563
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637563,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904439,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637565
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637565,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904441,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637567
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637567,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904431,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853240160000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904433,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637569
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637569,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904435,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637571
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637571,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904437,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637573
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637573,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904439,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637575
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637575,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904441,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637577
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637577,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "222963": {
+  "productId": 222963,
+  "events": [
+   {
+    "eventId": 7904475,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1851350520000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904481,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637579
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637579,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904483,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637581
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637581,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904485,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637583
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637583,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904487,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637585
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637585,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904489,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637587
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637587,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904477,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1851436920000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904481,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637589
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637589,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904483,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637591
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637591,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904485,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637593
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637593,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904487,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637595
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637595,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904489,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637597
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637597,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904479,
+    "eventName": "多次核销场次",
+    "maxVerifyCount": 1,
+    "startTime": 1851523320000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904481,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637599
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637599,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904483,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637601
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637601,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904485,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637603
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637603,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904487,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637605
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637605,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904489,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637607
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637607,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904491,
+    "eventName": "18+可购场次",
+    "maxVerifyCount": 1,
+    "startTime": 1853510700000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904481,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637609
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637609,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904483,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637611
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637611,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904485,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637613
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637613,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904487,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637615
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637615,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904489,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637617
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637617,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904493,
+    "eventName": "未开售场次",
+    "maxVerifyCount": 1,
+    "startTime": 1822061220000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904481,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637619
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637619,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904483,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637621
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637621,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904485,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637623
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637623,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904487,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637625
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637625,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904489,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637627
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637627,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "222965": {
+  "productId": 222965,
+  "events": [
+   {
+    "eventId": 7904525,
+    "eventName": "条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1852474320000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904531,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637639
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637639,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904533,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637641
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637641,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904535,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637643
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637643,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904537,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637645
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637645,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904539,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637647
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637647,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904527,
+    "eventName": "非条件退场次",
+    "maxVerifyCount": 1,
+    "startTime": 1852647120000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904531,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637629
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637629,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904533,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637631
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637631,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904535,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637633
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637633,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904537,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637635
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637635,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904539,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637637
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637637,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "eventId": 7904529,
+    "eventName": "18+可购场次",
+    "maxVerifyCount": 1,
+    "startTime": 1852819920000,
+    "canSaleNum": 450,
+    "tickets": [
+     {
+      "ticketId": 7904531,
+      "name": "VVIP票档",
+      "price": 1,
+      "skuIds": [
+       10637649
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637649,
+        "count": 16
+       }
+      ]
+     },
+     {
+      "ticketId": 7904533,
+      "name": "VIP票档",
+      "price": 0.01,
+      "skuIds": [
+       10637651
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637651,
+        "count": 82
+       }
+      ]
+     },
+     {
+      "ticketId": 7904535,
+      "name": "C票档",
+      "price": 0.01,
+      "skuIds": [
+       10637653
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637653,
+        "count": 174
+       }
+      ]
+     },
+     {
+      "ticketId": 7904537,
+      "name": "B票档",
+      "price": 0,
+      "skuIds": [
+       10637655
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637655,
+        "count": 108
+       }
+      ]
+     },
+     {
+      "ticketId": 7904539,
+      "name": "A票档",
+      "price": 0,
+      "skuIds": [
+       10637657
+      ],
+      "skuUsable": [
+       {
+        "skuId": 10637657,
+        "count": 70
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

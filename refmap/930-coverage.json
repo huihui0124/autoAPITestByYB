@@ -1,0 +1,2648 @@
+{
+ "root": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0",
+ "policy": {
+  "authoritative_mark": "含结果",
+  "note": "同族文件只采信带「含结果」的那份；纯用例版的差异不采信。",
+  "dropped": [
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/咪咕赛事票务系统一期V1.2.0开发冒烟自测执行结果.xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/咪咕赛事票务系统一期V1.2.0测试用例执行结果.xlsx",
+    "why": "体积 45MB > 40.0MB"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/咪咕赛事票务系统一期V1.2.0测试用例（930）.xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/售卖时间限制-开发冒烟自测(ETS-V1.2.0) .xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/售卖时间限制测试用例.xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/多次核销-开发冒烟自测(ETS-V1.2.0) .xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/多次核销测试用例.xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/年龄限购-开发冒烟自测(ETS-V1.2.0) .xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/年龄限购测试用例.xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/手动下单-开发冒烟自测(ETS-V1.2.0).xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/手动下单测试用例.xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/邀请函-开发冒烟自测(ETS-V1.2.0) .xlsx",
+    "why": "不含「含结果」"
+   },
+   {
+    "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/邀请函测试用例.xlsx",
+    "why": "不含「含结果」"
+   }
+  ],
+  "replaced": []
+ },
+ "stats": {
+  "authoritative": true,
+  "mark": "含结果",
+  "files": 5,
+  "cases": 267,
+  "steps": 578,
+  "modules": 41,
+  "fails": 22,
+  "multi_step_cases": 219,
+  "every_step_has_expect": 87,
+  "per_file": [
+   {
+    "file": "售卖时间限制测试用例（含结果）.xlsx",
+    "sheet": "售卖时间限制",
+    "cols": 16,
+    "cases": 36,
+    "steps": 69,
+    "modules": 7,
+    "fails": [],
+    "style": {
+     "multi_step_cases": 26,
+     "every_step_has_expect": 24,
+     "expect_last_step_only": 2
+    }
+   },
+   {
+    "file": "多次核销测试用例（含结果）.xlsx",
+    "sheet": "多次核销",
+    "cols": 16,
+    "cases": 53,
+    "steps": 116,
+    "modules": 10,
+    "fails": [
+     "MWO_040",
+     "MWO_043"
+    ],
+    "style": {
+     "multi_step_cases": 49,
+     "every_step_has_expect": 1,
+     "expect_last_step_only": 48
+    }
+   },
+   {
+    "file": "年龄限购测试用例（含结果）.xlsx",
+    "sheet": "年龄限购",
+    "cols": 16,
+    "cases": 32,
+    "steps": 87,
+    "modules": 1,
+    "fails": [
+     "APR_018"
+    ],
+    "style": {
+     "multi_step_cases": 32,
+     "every_step_has_expect": 4,
+     "expect_last_step_only": 28
+    }
+   },
+   {
+    "file": "手动下单测试用例（含结果）.xlsx",
+    "sheet": "手动下单",
+    "cols": 16,
+    "cases": 57,
+    "steps": 137,
+    "modules": 10,
+    "fails": [
+     "POM_009",
+     "POM_011",
+     "POM_012",
+     "POM_014",
+     "POM_015",
+     "POM_016",
+     "POM_021",
+     "POM_022",
+     "POM_024",
+     "POM_030",
+     "POM_035",
+     "POM_036",
+     "POM_043",
+     "POM_051"
+    ],
+    "style": {
+     "multi_step_cases": 55,
+     "every_step_has_expect": 5,
+     "expect_last_step_only": 50
+    }
+   },
+   {
+    "file": "邀请函测试用例（含结果）.xlsx",
+    "sheet": "邀请函",
+    "cols": 16,
+    "cases": 89,
+    "steps": 169,
+    "modules": 13,
+    "fails": [
+     "INV_028",
+     "INV_032",
+     "INV_033",
+     "INV_060",
+     "INV_085"
+    ],
+    "style": {
+     "multi_step_cases": 57,
+     "every_step_has_expect": 53,
+     "expect_last_step_only": 4
+    }
+   }
+  ]
+ },
+ "files": [
+  {
+   "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/售卖时间限制测试用例（含结果）.xlsx",
+   "rel": "售卖时间限制测试用例（含结果）.xlsx",
+   "sheet": "售卖时间限制",
+   "cols": 16,
+   "cases": 36,
+   "steps": 69,
+   "modules": {
+    "售票时间设置": 13,
+    "售票状态流转与展示": 7,
+    "售卖时间与购买控制": 3,
+    "下单过程超时拦截": 3,
+    "时间修改与恢复售卖": 3,
+    "手动禁售优先级": 3,
+    "项目销售设置联动": 4
+   },
+   "mode": "normal",
+   "authoritative": true,
+   "fails": []
+  },
+  {
+   "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/多次核销测试用例（含结果）.xlsx",
+   "rel": "多次核销测试用例（含结果）.xlsx",
+   "sheet": "多次核销",
+   "cols": 16,
+   "cases": 53,
+   "steps": 116,
+   "modules": {
+    "多次核销-商家端配置": 20,
+    "多次核销-C端展示": 7,
+    "多次核销-PDA核销": 6,
+    "多次核销-B端手动核销": 6,
+    "多次核销-次数规则": 3,
+    "多次核销-退票规则": 5,
+    "多次核销-数据记录": 2,
+    "多次核销-凭证生成": 1,
+    "多次核销-邀请函生成": 2,
+    "多次核销-核销监控": 1
+   },
+   "mode": "normal",
+   "authoritative": true,
+   "fails": [
+    "MWO_040",
+    "MWO_043"
+   ]
+  },
+  {
+   "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/年龄限购测试用例（含结果）.xlsx",
+   "rel": "年龄限购测试用例（含结果）.xlsx",
+   "sheet": "年龄限购",
+   "cols": 16,
+   "cases": 32,
+   "steps": 87,
+   "modules": {
+    "年龄限购": 32
+   },
+   "mode": "normal",
+   "authoritative": true,
+   "fails": [
+    "APR_018"
+   ]
+  },
+  {
+   "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/手动下单测试用例（含结果）.xlsx",
+   "rel": "手动下单测试用例（含结果）.xlsx",
+   "sheet": "手动下单",
+   "cols": 16,
+   "cases": 57,
+   "steps": 137,
+   "modules": {
+    "手动下单-赠票入口与权限": 3,
+    "手动下单-快递票赠票": 5,
+    "手动下单-锁座标签": 5,
+    "手动下单-选座赠票": 9,
+    "手动下单-批量导入赠票": 9,
+    "手动下单-上传校验规则": 12,
+    "手动下单-赠票信息修改": 6,
+    "手动下单-座位解锁": 2,
+    "手动下单-自动注册": 3,
+    "手动下单-赠票C端展示": 3
+   },
+   "mode": "normal",
+   "authoritative": true,
+   "fails": [
+    "POM_009",
+    "POM_011",
+    "POM_012",
+    "POM_014",
+    "POM_015",
+    "POM_016",
+    "POM_021",
+    "POM_022",
+    "POM_024",
+    "POM_030",
+    "POM_035",
+    "POM_036",
+    "POM_043",
+    "POM_051"
+   ]
+  },
+  {
+   "file": "/Users/yubing/Documents/haomai/haomai-migu/930测试用例V1.2.0/邀请函测试用例（含结果）.xlsx",
+   "rel": "邀请函测试用例（含结果）.xlsx",
+   "sheet": "邀请函",
+   "cols": 16,
+   "cases": 89,
+   "steps": 169,
+   "modules": {
+    "邀请函-权限与列表筛选": 9,
+    "邀请函-导出海报": 20,
+    "邀请函-创建流程": 15,
+    "邀请函-详情与日志": 3,
+    "邀请函-单条修改有效期": 3,
+    "邀请函-单条作废": 3,
+    "邀请函-C端领取页状态展示": 7,
+    "邀请函-C端登录与实名": 9,
+    "邀请函-C端领取成功与拉端": 5,
+    "邀请函-限购与风控校验": 4,
+    "邀请函-库存规则": 3,
+    "邀请函-有效期与边界": 5,
+    "邀请函-退款与核销": 3
+   },
+   "mode": "normal",
+   "authoritative": true,
+   "fails": [
+    "INV_028",
+    "INV_032",
+    "INV_033",
+    "INV_060",
+    "INV_085"
+   ]
+  }
+ ],
+ "modules": {
+  "下单过程超时拦截": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "PTL_024",
+     "title": "【咪咕APP内赛事票务H5端】售卖结束前进入确认订单页等待结束后提交订单被拦截",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_025",
+     "title": "【咪咕APP内赛事票务H5端】已支付成功的订单不受售卖结束时间影响",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_026",
+     "title": "【咪咕APP内赛事票务H5端】订单已创建未支付，售卖结束后可继续支付",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "售卖时间与购买控制": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "PTL_021",
+     "title": "【咪咕APP内赛事票务H5端】售票时间范围内完整下单支付成功",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_022",
+     "title": "【咪咕APP内赛事票务H5端】售卖时间与库存相互独立：时间内库存不足不可购买",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_023",
+     "title": "【咪咕APP内赛事票务H5端】限购等原有售卖规则与售票时间限制叠加生效",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "售票时间设置": {
+   "n": 13,
+   "cases": [
+    {
+     "case_id": "PTL_001",
+     "title": "【赛事票务商家端】非选座票档弹窗展示「是否设置售票时间限制」且默认不设置",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_002",
+     "title": "【赛事票务商家端】选择「是」后展开售票时间设置（开售时间默认上架时间+售卖结束时间）",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_003",
+     "title": "【赛事票务商家端】非选座票档设置售票时间范围保存成功",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_004",
+     "title": "【赛事票务商家端】选座票档销售规则弹窗设置销售时间限制保存成功",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_005",
+     "title": "【赛事票务商家端】售卖结束时间早于开售时间保存拦截",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_006",
+     "title": "【赛事票务商家端】售卖结束时间等于开售时间保存拦截",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_007",
+     "title": "【赛事票务商家端】取消设置（改选「否」）后票档沿用项目设置规则",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_008",
+     "title": "【赛事票务商家端】每个票档可独立设置不同售票时间",
+     "priority": "P1",
+     "steps": 4,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_009",
+     "title": "【赛事票务商家端】将票档同步到所有场次后售票时间同步至项目下其他场次",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_010",
+     "title": "【赛事票务商家端】编辑票档时已设置的售票时间正确回显",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_011",
+     "title": "【赛事票务商家端】取消编辑不保存售票时间修改",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_012",
+     "title": "【赛事票务商家端】套票提供售票时间限制设置入口，不受套票内票档的限制",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_013",
+     "title": "【赛事票务商家端】开售时间保持默认上架时间直接保存",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "售票状态流转与展示": {
+   "n": 7,
+   "cases": [
+    {
+     "case_id": "PTL_014",
+     "title": "【咪咕APP内赛事票务H5端】未开售状态展示「暂未开售」且不可购买",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_015",
+     "title": "【咪咕APP内赛事票务H5端】售卖中状态展示「立即购买」可正常购买",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_016",
+     "title": "【咪咕APP内赛事票务H5端】售卖结束状态展示「停止销售」且不可购买",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_017",
+     "title": "【咪咕APP内赛事票务H5端】到达售卖结束时间票档自动停止售卖",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_018",
+     "title": "【咪咕APP内赛事票务H5端】开售时刻到达后票档自动可购买",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_019",
+     "title": "【咪咕APP内赛事票务H5端】不同票档按各自售票时间独立展示状态",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_020",
+     "title": "【赛事票务商家端】B端票档列表展示售票时间与售卖状态",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-B端手动核销": {
+   "n": 6,
+   "cases": [
+    {
+     "case_id": "MWO_032",
+     "title": "【赛事票务商家端】B端订单详情手动核销页正确展示当前核销状态(已核销/剩余)",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_033",
+     "title": "【赛事票务商家端】B端点击“确认核销”成功后已核销次数+1",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_034",
+     "title": "【赛事票务商家端】B端核销未达到最大次数票品可继续核销",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_035",
+     "title": "【赛事票务商家端】B端核销已达到最大次数后不允许再次手动核销",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_036",
+     "title": "【赛事票务商家端】B端与PDA交替核销共用该票次数",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_053",
+     "title": "【赛事票务商家端】最大核销次数=999时点击“全部核销”，一次性核销全部剩余次数且核销弹窗仅生成1条记录（核销次数=999）",
+     "priority": "P2",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-C端展示": {
+   "n": 7,
+   "cases": [
+    {
+     "case_id": "MWO_019",
+     "title": "【咪咕APP内赛事票务H5端】订单详情查看入场凭证正确展示“已核销次数/总核销次数”(如1/3)",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_020",
+     "title": "【咪咕APP内赛事票务H5端】我的票夹正确展示“已核销次数/总核销次数”",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_021",
+     "title": "【咪咕APP内赛事票务H5端】每次核销成功后展示实时更新(1/3→2/3)",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_022",
+     "title": "【咪咕APP内赛事票务H5端】达到最大核销次数后展示“该票已作废”状态",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_023",
+     "title": "【咪咕APP内赛事票务H5端】达到最大次数后二维码不可继续用于入场(置灰/禁用)",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_024",
+     "title": "【咪咕APP内赛事票务H5端】身份证凭证项目展示对应核销次数",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_025",
+     "title": "【咪咕APP内赛事票务H5端】C端展示与PDA/B端核销状态保持一致",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-PDA核销": {
+   "n": 6,
+   "cases": [
+    {
+     "case_id": "MWO_026",
+     "title": "【赛事票务商家端】PDA使用身份证核销成功且已核销次数+1实时更新",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_027",
+     "title": "【赛事票务商家端】PDA使用电子票二维码核销成功且已核销次数+1",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_028",
+     "title": "【赛事票务商家端】PDA核销前正确判断并显示剩余核销次数",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_029",
+     "title": "【赛事票务商家端】PDA达到最大核销次数后再次核销给出明确提示并不允许",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_030",
+     "title": "【赛事票务商家端】PDA核销达到上限后票品状态变更为已失效",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_031",
+     "title": "【赛事票务商家端】同一票身份证与二维码交替核销共用该票次数(不双计)",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-凭证生成": {
+   "n": 1,
+   "cases": [
+    {
+     "case_id": "MWO_049",
+     "title": "【赛事票务商家端】项目批量生成凭证时同步该场次最大核销次数，且不随后续场次配置更改而变化",
+     "priority": "P0",
+     "steps": 2,
+     "result": "other",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-商家端配置": {
+   "n": 20,
+   "cases": [
+    {
+     "case_id": "MWO_001",
+     "title": "【赛事票务商家端】场次编辑页新增“最大核销次数”字段且默认值为1（选座与非选座项目均适用）",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_002",
+     "title": "【赛事票务商家端】非选座项目输入正整数(如3)保存成功并对该场次生效",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_003",
+     "title": "【赛事票务商家端】非选座项目输入最小值1保存成功",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_004",
+     "title": "【赛事票务商家端】非选座项目输入最大值999保存成功",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_005",
+     "title": "【赛事票务商家端】非选座项目输入0被拦截",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_006",
+     "title": "【赛事票务商家端】非选座项目输入负数被拦截",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_007",
+     "title": "【赛事票务商家端】非选座项目输入小数(如2.5)被拦截",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_008",
+     "title": "【赛事票务商家端】非选座项目输入非数字(字母/特殊字符)被拦截",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_009",
+     "title": "【赛事票务商家端】非选座项目输入超999(如1000)被拦截",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_010",
+     "title": "【赛事票务商家端】非选座项目不填默认为1",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_011",
+     "title": "【赛事票务商家端】选座项目场次页“设置核销次数”按钮可点击并弹出设置弹窗",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_012",
+     "title": "【赛事票务商家端】选座项目弹窗内输入正整数保存成功对该场次生效",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_013",
+     "title": "【赛事票务商家端】选座项目弹窗内非法输入(0/负数/小数/非数字/超999)同样拦截",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_014",
+     "title": "【赛事票务商家端】选座项目不填默认为1",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_015",
+     "title": "【赛事票务商家端】选座项目保存后正确展示已设核销次数",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_016",
+     "title": "【赛事票务商家端】具备项目编辑权限人员可修改最大核销次数",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_017",
+     "title": "【赛事票务商家端】无项目管理权限人员不可修改配置",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_018",
+     "title": "【赛事票务商家端】配置变更对已售票影响：配置变更不对已有订单造成改变",
+     "priority": "P2",
+     "steps": 1,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_047",
+     "title": "【赛事票务商家端】新建非选座项目复制其他项目场次时，场次最大核销次数配置随之复制",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_048",
+     "title": "【赛事票务商家端】非选座票档同步到其他场次时，最大核销次数按该票档所在场次配置决定",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-数据记录": {
+   "n": 2,
+   "cases": [
+    {
+     "case_id": "MWO_045",
+     "title": "【赛事票务商家端】每次核销均生成独立核销记录(时间/方式/人员/设备/核销次数)",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_046",
+     "title": "【赛事票务商家端】核销总次数=各记录“核销次数”之和（逐次核销条数一致，全部核销时1条记录对应多次）",
+     "priority": "P1",
+     "steps": 2,
+     "result": "other",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-核销监控": {
+   "n": 1,
+   "cases": [
+    {
+     "case_id": "MWO_052",
+     "title": "【赛事票务商家端】全部核销后核销监控仅生成1条记录（核销次数=N，非N条记录）",
+     "priority": "P2",
+     "steps": 3,
+     "result": "other",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-次数规则": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "MWO_037",
+     "title": "【赛事票务商家端】最大核销次数未设置时，默认为1只允许成功核销1次(第2次拦截)",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_038",
+     "title": "【赛事票务商家端】不同票独立计数(同订单两张票各自计数互不影响)",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_039",
+     "title": "【赛事票务商家端】同一订单多观赛人各自票独立计数",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-退票规则": {
+   "n": 5,
+   "cases": [
+    {
+     "case_id": "MWO_040",
+     "title": "【赛事票务商家端】已核销次数>0时不可发起对该票的部分退-退票",
+     "priority": "P1",
+     "steps": 2,
+     "result": "fail",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_041",
+     "title": "【赛事票务商家端】已核销未用满的票可常规退(整票退)但不回滚库存",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_042",
+     "title": "【赛事票务商家端】已用满(失效)的票不可从部分退入口发起退票，但可以正常进行常规退（库存不回滚）",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_043",
+     "title": "【赛事票务商家端】已用满票不影响订单中其他票的部分退-退票",
+     "priority": "P1",
+     "steps": 2,
+     "result": "fail",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_044",
+     "title": "【赛事票务商家端】未核销票可正常部分退/常规退(对照)",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "多次核销-邀请函生成": {
+   "n": 2,
+   "cases": [
+    {
+     "case_id": "MWO_050",
+     "title": "【赛事票务商家端】批量生成邀请函时同步场次最大核销次数，生成后~领取前随场次配置变更同步",
+     "priority": "P0",
+     "steps": 2,
+     "result": "other",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "MWO_051",
+     "title": "【赛事票务商家端】邀请函领取后修改场次最大核销次数，已领取邀请函值不再同步（保持领取时值）",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "多次核销测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "年龄限购": {
+   "n": 32,
+   "cases": [
+    {
+     "case_id": "APR_001",
+     "title": "【赛事票务商家端】年龄限购弹窗基础展示",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_002",
+     "title": "【赛事票务商家端】启用并配置一条可购买规则保存成功",
+     "priority": "P0",
+     "steps": 4,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_003",
+     "title": "【赛事票务商家端】规则状态停用后可保存",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_004",
+     "title": "【赛事票务商家端】关系切换且/或",
+     "priority": "P1",
+     "steps": 4,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_005",
+     "title": "【赛事票务商家端】比较关系下拉选项校验",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_006",
+     "title": "【赛事票务商家端】年龄输入非负整数及边界",
+     "priority": "P1",
+     "steps": 4,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_007",
+     "title": "【赛事票务商家端】年龄非法输入拦截",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_008",
+     "title": "【赛事票务商家端】购买结果下拉选项",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_009",
+     "title": "【赛事票务商家端】年龄限购-添加多条规则",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_010",
+     "title": "【赛事票务商家端】删除规则",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_011",
+     "title": "【赛事票务商家端】删除全部规则后启用保存拦截",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_012",
+     "title": "【赛事票务商家端】规则冲突保存拦截",
+     "priority": "P0",
+     "steps": 2,
+     "result": "other",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_013",
+     "title": "【赛事票务商家端】规则预览实时更新",
+     "priority": "P1",
+     "steps": 4,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_014",
+     "title": "【赛事票务商家端】多票档独立配置",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_015",
+     "title": "【赛事票务商家端】编辑已配置规则回显",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_016",
+     "title": "【赛事票务商家端】取消配置不保存",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_017",
+     "title": "【赛事票务商家端】停用后重新启用保留规则",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_018",
+     "title": "【赛事票务商家端】运营说明展示",
+     "priority": "P1",
+     "steps": 2,
+     "result": "fail",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_019",
+     "title": "【赛事票务商家端】多条规则统一关系",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_020",
+     "title": "【咪咕APP内赛事票务H5端】身份证年龄满足且条件可购买",
+     "priority": "P0",
+     "steps": 4,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_021",
+     "title": "【咪咕APP内赛事票务H5端】年龄不满足且条件可购买",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_022",
+     "title": "【咪咕APP内赛事票务H5端】年龄超过上限不可购买",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_023",
+     "title": "【咪咕APP内赛事票务H5端】非身份证证件类型不做校验",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_024",
+     "title": "【咪咕APP内赛事票务H5端】多名观赛人分别校验",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_025",
+     "title": "【咪咕APP内赛事票务H5端】生日当天年龄边界",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_026",
+     "title": "【咪咕APP内赛事票务H5端】年龄限购-2月29日出生非闰年处理",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_027",
+     "title": "【咪咕APP内赛事票务H5端】年龄刚好等于规则值",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_028",
+     "title": "【咪咕APP内赛事票务H5端】未配置规则不校验",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_029",
+     "title": "【咪咕APP内赛事票务H5端】规则停用不校验",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_030",
+     "title": "【咪咕APP内赛事票务H5端】可购买与不可购买混合优先规则",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_031",
+     "title": "【咪咕APP内赛事票务H5端】B端保存后C端实时生效",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "APR_032",
+     "title": "【咪咕APP内赛事票务H5端】全部身份证观赛人符合可正常提交",
+     "priority": "P2",
+     "steps": 3,
+     "result": "pass",
+     "source": "年龄限购测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-上传校验规则": {
+   "n": 12,
+   "cases": [
+    {
+     "case_id": "POM_032",
+     "title": "【赛事票务商家端】仅支持.xlsx/.xls格式",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_033",
+     "title": "【赛事票务商家端】必须使用系统标准模板",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_034",
+     "title": "【赛事票务商家端】选座座位有效性校验",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_035",
+     "title": "【赛事票务商家端】选座模板座位号重复时拒绝全部导入",
+     "priority": "P1",
+     "steps": 2,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_036",
+     "title": "【赛事票务商家端】选座座位已被赠送",
+     "priority": "P1",
+     "steps": 2,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_037",
+     "title": "【赛事票务商家端】手机号格式校验",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_038",
+     "title": "【赛事票务商家端】姓名校验(非空且2-20字符)",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_039",
+     "title": "【赛事票务商家端】身份证号校验",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_040",
+     "title": "【赛事票务商家端】快递票收货信息完整性",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_041",
+     "title": "【赛事票务商家端】全部校验通过时全部导入且不提供预览导入结果",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_042",
+     "title": "【赛事票务商家端】致命错误时全部不导入且不提供逐行预览导入结果",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_043",
+     "title": "【赛事票务商家端】按预览导入结果修正失败行后重新上传完成赠票",
+     "priority": "P1",
+     "steps": 3,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-座位解锁": {
+   "n": 2,
+   "cases": [
+    {
+     "case_id": "POM_050",
+     "title": "【赛事票务商家端】已锁定未赠送座位可手动解锁",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_051",
+     "title": "【赛事票务商家端】已被赠送的座位不会重复导出",
+     "priority": "P0",
+     "steps": 2,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-快递票赠票": {
+   "n": 5,
+   "cases": [
+    {
+     "case_id": "POM_004",
+     "title": "【赛事票务商家端】快递票批量导入赠票成功生成快递订单可进入发货流程",
+     "priority": "P0",
+     "steps": 4,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_005",
+     "title": "【赛事票务商家端】非快递票类赠票模板不展示收货信息字段",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_006",
+     "title": "【赛事票务商家端】实名快递票赠票模板含证件类型且收货信息为必填",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_007",
+     "title": "【赛事票务商家端】非实名快递票模板不展示证件号列",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_008",
+     "title": "【赛事票务商家端】快递票赠票时收货信息与受赠人信息可为不同人",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-批量导入赠票": {
+   "n": 9,
+   "cases": [
+    {
+     "case_id": "POM_023",
+     "title": "【赛事票务商家端】非选座项目通过批量导入入口按票类下载对应模板",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_024",
+     "title": "【赛事票务商家端】库存不足时拦截整个任务并提示失败原因",
+     "priority": "P0",
+     "steps": 2,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_025",
+     "title": "【赛事票务商家端】支持错误行跳过、正确行正常导入",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_026",
+     "title": "【赛事票务商家端】部分校验通过时提供\"预览导入结果\"表含状态与失败原因",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_027",
+     "title": "【赛事票务商家端】赠票不受票档限购限制但校验剩余库存",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_028",
+     "title": "【赛事票务商家端】实名信息不做二要素校验",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_029",
+     "title": "【赛事票务商家端】非选座模板字段按票类动态生成",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_030",
+     "title": "【赛事票务商家端】已结束场次不出现在场次选择列表",
+     "priority": "P1",
+     "steps": 2,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_031",
+     "title": "【赛事票务商家端】实名类项目赠票模板统一新增证件类型必填列",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-自动注册": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "POM_052",
+     "title": "【赛事票务商家端】确认赠票后未注册的新用户自动注册票务用户,并在从咪咕（未登录）进入票务系统访问登录拦截页时，拉起咪咕登录，登录成功时绑定passid",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_053",
+     "title": "【赛事票务商家端】仅上传校验未确认赠票时不触发自动注册",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_054",
+     "title": "【赛事票务商家端】同一未注册手机号多行赠票",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-赠票C端展示": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "POM_055",
+     "title": "【咪咕APP内赛事票务H5端】用户收到赠票后票夹/订单列表可见票品",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_056",
+     "title": "【咪咕APP内赛事票务H5端】赠票可核销次数与场次配置一致",
+     "priority": "P2",
+     "steps": 1,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_057",
+     "title": "【咪咕APP内赛事票务H5端】快递票赠票发货后C端可见物流",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-赠票信息修改": {
+   "n": 6,
+   "cases": [
+    {
+     "case_id": "POM_044",
+     "title": "【赛事票务商家端】未核销赠票可进订单详情改实名/配送",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_045",
+     "title": "【赛事票务商家端】已赠送票可改实名/配送但不可改受赠手机号/座位",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_046",
+     "title": "【赛事票务商家端】任何场景不可更改赠票目标用户(手机号)",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_047",
+     "title": "【赛事票务商家端】已赠座位不可通过重新上传Excel更改受赠人",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_048",
+     "title": "【赛事票务商家端】不支持直接修改座位号列",
+     "priority": "P2",
+     "steps": 1,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_049",
+     "title": "【赛事票务商家端】不支持通过交换行信息换座",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-赠票入口与权限": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "POM_001",
+     "title": "【赛事票务商家端】有赠票权限时项目卡片\"更多\"可见赠票入口",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_002",
+     "title": "【赛事票务商家端】无赠票权限时不显示/不可进入赠票入口",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_003",
+     "title": "【赛事票务商家端】跨角色协作：A运营锁票、B运营赠票",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-选座赠票": {
+   "n": 9,
+   "cases": [
+    {
+     "case_id": "POM_014",
+     "title": "【赛事票务商家端】未锁座时赠票时不显示场次",
+     "priority": "P0",
+     "steps": 2,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_015",
+     "title": "【赛事票务商家端】锁座后可下载含锁定字段的座位模板",
+     "priority": "P0",
+     "steps": 3,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_016",
+     "title": "【赛事票务商家端】模板锁定列不可编辑、可编辑列按票类动态",
+     "priority": "P1",
+     "steps": 3,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_017",
+     "title": "【赛事票务商家端】上传填写完成Excel校验通过完成赠票",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_018",
+     "title": "【赛事票务商家端】模板未填信息座位保持未被分配状态",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_019",
+     "title": "【赛事票务商家端】已被赠送座位不可重复赠送",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_020",
+     "title": "【赛事票务商家端】上传校验失败弹窗显示失败行号座位及原因",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_021",
+     "title": "【赛事票务商家端】赠票成功的座位不再出现在后续模板中",
+     "priority": "P0",
+     "steps": 3,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_022",
+     "title": "【赛事票务商家端】解锁后的座位不再出现在赠票模板中",
+     "priority": "P1",
+     "steps": 2,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动下单-锁座标签": {
+   "n": 5,
+   "cases": [
+    {
+     "case_id": "POM_009",
+     "title": "【赛事票务商家端】锁座时必须选择标签，未选标签不可完成锁座",
+     "priority": "P0",
+     "steps": 3,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_010",
+     "title": "【赛事票务商家端】锁座时可新增自定义标签并在后续锁座中复用",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_011",
+     "title": "【赛事票务商家端】一个座位同时仅保留一个标签",
+     "priority": "P1",
+     "steps": 2,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_012",
+     "title": "【赛事票务商家端】下载赠票模板时按标签筛选座位",
+     "priority": "P0",
+     "steps": 3,
+     "result": "fail",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "POM_013",
+     "title": "【赛事票务商家端】同一标签下的多个座位可一次性批量赠票",
+     "priority": "P1",
+     "steps": 3,
+     "result": "other",
+     "source": "手动下单测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "手动禁售优先级": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "PTL_030",
+     "title": "【赛事票务商家端】手动禁售优先级高于售票时间限制",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_031",
+     "title": "【赛事票务商家端】手动禁售后页面给运营提示",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_032",
+     "title": "【赛事票务商家端】手动禁售后恢复可售则回到售票时间控制",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "时间修改与恢复售卖": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "PTL_027",
+     "title": "【赛事票务商家端】延长售卖结束时间后票档恢复/继续售卖",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_028",
+     "title": "【赛事票务商家端】缩短售卖结束时间后票档提前停止售卖",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_029",
+     "title": "【赛事票务商家端】修改开售时间到未来后票档变为未开售",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-C端登录与实名": {
+   "n": 9,
+   "cases": [
+    {
+     "case_id": "INV_061",
+     "title": "【咪咕APP内赛事票务H5端】未注册手机号验证后自动创建咪咕账号",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_062",
+     "title": "【咪咕APP内赛事票务H5端】实名登记表单字段与证件类型枚举",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_063",
+     "title": "【咪咕APP内赛事票务H5端】实名二要素校验通过领取成功",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_064",
+     "title": "【咪咕APP内赛事票务H5端】实名二要素校验失败可修改后重新提交",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_065",
+     "title": "【咪咕APP内赛事票务H5端】实名信息必填与证件号格式校验",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_066",
+     "title": "【咪咕APP内赛事票务H5端】领取码字段只读不可修改",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_067",
+     "title": "【咪咕APP内赛事票务H5端】非实名项目不录入实名信息且一码仅可领取一次",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_068",
+     "title": "【咪咕APP内赛事票务H5端】实名页个人信息加密与用途提示文案",
+     "priority": "P2",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_069",
+     "title": "【咪咕APP内赛事票务H5端】微信浏览器内查看我的门票时拉端",
+     "priority": "P2",
+     "steps": 2,
+     "result": "blank",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-C端领取成功与拉端": {
+   "n": 5,
+   "cases": [
+    {
+     "case_id": "INV_070",
+     "title": "【咪咕APP内赛事票务H5端】领取成功页信息展示",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_071",
+     "title": "【咪咕APP内赛事票务H5端】电子票查看我的门票拉端进入票夹",
+     "priority": "P0",
+     "steps": 1,
+     "result": "blank",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_072",
+     "title": "【咪咕APP内赛事票务H5端】纸质票查看我的门票拉端进入订单列表页",
+     "priority": "P1",
+     "steps": 1,
+     "result": "blank",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_073",
+     "title": "【咪咕APP内赛事票务H5端】快递票领取时录入收货信息",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_074",
+     "title": "【咪咕APP内赛事票务H5端】邀请函领取生成订单并在核销时进入核销监控",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-C端领取页状态展示": {
+   "n": 7,
+   "cases": [
+    {
+     "case_id": "INV_054",
+     "title": "【咪咕APP内赛事票务H5端】可领取状态确认页信息展示",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_055",
+     "title": "【咪咕APP内赛事票务H5端】点击立即领取按登录态分流，登录后可拉取选择账户下的实名观赛人/收货地址",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_056",
+     "title": "【咪咕APP内赛事票务H5端】邀请函已被他人领取状态展示",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_057",
+     "title": "【咪咕APP内赛事票务H5端】本人已领取状态展示",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_058",
+     "title": "【咪咕APP内赛事票务H5端】已作废状态展示",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_059",
+     "title": "【咪咕APP内赛事票务H5端】已过期状态展示",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_060",
+     "title": "【咪咕APP内赛事票务H5端】场次已结束状态展示",
+     "priority": "P1",
+     "steps": 1,
+     "result": "fail",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-创建流程": {
+   "n": 15,
+   "cases": [
+    {
+     "case_id": "INV_030",
+     "title": "【赛事票务商家端】创建邀请函入口与三步流程正常完成",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_031",
+     "title": "【赛事票务商家端】Step1展示所有上架项目",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_032",
+     "title": "【赛事票务商家端】Step1项目卡片字段完整性",
+     "priority": "P1",
+     "steps": 1,
+     "result": "fail",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_033",
+     "title": "【赛事票务商家端】Step1按项目ID/名称/场馆/时间查询与tab切换",
+     "priority": "P1",
+     "steps": 2,
+     "result": "fail",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_034",
+     "title": "【赛事票务商家端】Step2场次列表字段与选择场次",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_035",
+     "title": "【赛事票务商家端】非选座项目选择票档设置数量生成邀请函",
+     "priority": "P0",
+     "steps": 4,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_036",
+     "title": "【赛事票务商家端】选座项目打开座位图选座生成每座一码",
+     "priority": "P0",
+     "steps": 4,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_037",
+     "title": "【赛事票务商家端】选座单次选择超过10个座位",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_038",
+     "title": "【赛事票务商家端】座位图单个取消选择与清空已选",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_039",
+     "title": "【赛事票务商家端】配置项-设置领取有效期截止时间",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_040",
+     "title": "【赛事票务商家端】配置项-关闭截止时间生成长期有效邀请函（365天）",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_041",
+     "title": "【赛事票务商家端】配置项-备注仅内部可见不展示给领取用户",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_042",
+     "title": "【赛事票务商家端】创建页规则提示展示",
+     "priority": "P2",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_043",
+     "title": "【赛事票务商家端】同一次生成的邀请函批次号一致",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_044",
+     "title": "【赛事票务商家端】生成邀请函即占用对应库存",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-单条作废": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "INV_051",
+     "title": "【赛事票务商家端】作废待领取邀请函成功并回滚库存",
+     "priority": "P0",
+     "steps": 4,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_052",
+     "title": "【赛事票务商家端】已领取邀请函不可作废",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_053",
+     "title": "【赛事票务商家端】作废邀请函取消操作不生效",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-单条修改有效期": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "INV_048",
+     "title": "【赛事票务商家端】待领取邀请函修改有效期后立即生效",
+     "priority": "P0",
+     "steps": 4,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_049",
+     "title": "【赛事票务商家端】非待领取状态记录不支持修改有效期",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_050",
+     "title": "【赛事票务商家端】修改有效期取消操作不生效",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-导出海报": {
+   "n": 20,
+   "cases": [
+    {
+     "case_id": "INV_010",
+     "title": "【赛事票务商家端】未勾选记录时导出海报按钮置灰不可点击",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_011",
+     "title": "【赛事票务商家端】勾选待领取记录打开导出海报弹窗并显示将生成海报数",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_012",
+     "title": "【赛事票务商家端】仅待领取状态可导出海报-非待领取记录不可勾选",
+     "priority": "P1",
+     "steps": 2,
+     "result": "other",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_013",
+     "title": "【赛事票务商家端】海报底图必填-未上传底图时导出按钮置灰且预览显示空态",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_014",
+     "title": "【赛事票务商家端】上传PNG/JPG/WebP底图成功并实时渲染海报预览",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_015",
+     "title": "【赛事票务商家端】选座项目邀请函海报信息卡内容完整性",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_016",
+     "title": "【赛事票务商家端】非选座项目邀请函海报不展示区/排/座",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_017",
+     "title": "【赛事票务商家端】邀请函海报提示语展示失效时间",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_018",
+     "title": "【赛事票务商家端】海报入口信息选填-填写后展示未填写保持空白",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_019",
+     "title": "【赛事票务商家端】信息框位置左右/上下滑块调整实时预览",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_020",
+     "title": "【赛事票务商家端】信息框位置复位恢复默认居中",
+     "priority": "P2",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_021",
+     "title": "【赛事票务商家端】预览邀请函下拉切换联动海报内容",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_022",
+     "title": "【赛事票务商家端】上一张/下一张翻页预览与张数展示",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_023",
+     "title": "【赛事票务商家端】下载海报成功且内容与预览一致",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_024",
+     "title": "【赛事票务商家端】导出全部海报打包ZIP且每张海报二维码与邀请码一一对应",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_025",
+     "title": "【赛事票务商家端】海报二维码可扫码进入对应邀请函领取页",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_026",
+     "title": "【赛事票务商家端】取消或关闭导出海报弹窗不执行导出",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_027",
+     "title": "【赛事票务商家端】关闭弹窗重新打开后海报配置清空需重新上传底图",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_028",
+     "title": "【赛事票务商家端】导出海报的命名规则：比赛名称-场次日期/时间-票档-区域（若有）-座位号（若有）",
+     "priority": "P1",
+     "steps": 1,
+     "result": "fail",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_029",
+     "title": "【赛事票务商家端】同一弹窗内切换预览邀请函保留底图与配置",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-库存规则": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "INV_079",
+     "title": "【赛事票务商家端】非选座生成数量超过剩余库存整体拦截",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_080",
+     "title": "【赛事票务商家端】作废回滚的库存可再次用于生成或销售",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_081",
+     "title": "【赛事票务商家端】选座生成后对应座位被占用不可再售",
+     "priority": "P0",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-有效期与边界": {
+   "n": 5,
+   "cases": [
+    {
+     "case_id": "INV_082",
+     "title": "【咪咕APP内赛事票务H5端】超过领取截止时间后不可领取",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_083",
+     "title": "【赛事票务商家端】修改有效期后C端按新截止时间判断",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_084",
+     "title": "【咪咕APP内赛事票务H5端】长期有效邀请函任意时间可领取（365天内）",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_085",
+     "title": "【赛事票务商家端】邀请函创建和领取不受票档开售时间限制",
+     "priority": "P0",
+     "steps": 2,
+     "result": "fail",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_086",
+     "title": "【咪咕APP内赛事票务H5端】场次结束与领取有效期独立校验",
+     "priority": "P1",
+     "steps": 1,
+     "result": "other",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-权限与列表筛选": {
+   "n": 9,
+   "cases": [
+    {
+     "case_id": "INV_001",
+     "title": "【赛事票务商家端】有邀请函管理权限的运营账号可执行邀请函全部操作",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_002",
+     "title": "【赛事票务商家端】邀请函管理列表入口与分页查询",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_003",
+     "title": "【赛事票务商家端】按所属项目筛选邀请函列表",
+     "priority": "P1",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_004",
+     "title": "【赛事票务商家端】按领取状态筛选邀请函列表",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_005",
+     "title": "【赛事票务商家端】按核销状态筛选邀请函列表",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_006",
+     "title": "【赛事票务商家端】按生成日期区间筛选邀请函列表",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_007",
+     "title": "【赛事票务商家端】顶部搜索框按项目/领取码/批次/姓名搜索",
+     "priority": "P2",
+     "steps": 3,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_008",
+     "title": "【赛事票务商家端】列表字段完整性校验",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_009",
+     "title": "【赛事票务商家端】用户信息列脱敏与待登记展示",
+     "priority": "P2",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-详情与日志": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "INV_045",
+     "title": "【赛事票务商家端】邀请函详情基础信息完整",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_046",
+     "title": "【赛事票务商家端】邀请函详情风控校验结果展示",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_047",
+     "title": "【赛事票务商家端】邀请函详情操作与流转日志时间线",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-退款与核销": {
+   "n": 3,
+   "cases": [
+    {
+     "case_id": "INV_087",
+     "title": "【咪咕APP内赛事票务H5端】邀请函领取的门票不支持C端退款",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_088",
+     "title": "【赛事票务商家端】邀请函订单支持B端常规退与部分退",
+     "priority": "P1",
+     "steps": 2,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_089",
+     "title": "【赛事票务商家端】邀请函核销状态流转与日志记录",
+     "priority": "P1",
+     "steps": 3,
+     "result": "other",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "邀请函-限购与风控校验": {
+   "n": 4,
+   "cases": [
+    {
+     "case_id": "INV_075",
+     "title": "【咪咕APP内赛事票务H5端】一票一证项目证件已在该场次下过单拦截",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_076",
+     "title": "【咪咕APP内赛事票务H5端】一票一证项目证件未下过单首次领取成功",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_077",
+     "title": "【咪咕APP内赛事票务H5端】一单一证项目不做实名限购校验",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "INV_078",
+     "title": "【咪咕APP内赛事票务H5端】邀请函领取不触发年龄限购策略",
+     "priority": "P0",
+     "steps": 1,
+     "result": "pass",
+     "source": "邀请函测试用例（含结果）.xlsx"
+    }
+   ]
+  },
+  "项目销售设置联动": {
+   "n": 4,
+   "cases": [
+    {
+     "case_id": "PTL_033",
+     "title": "【赛事票务商家端】勾选售票时间限制但未设置结束时间按项目规则控制结束",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_034",
+     "title": "【咪咕APP内赛事票务H5端】项目可购买时间为演出开始后不可售时票档演出开始后自动停售",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_035",
+     "title": "【咪咕APP内赛事票务H5端】项目可购买时间为演出结束后不可售时票档演出结束后停售",
+     "priority": "P0",
+     "steps": 2,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    },
+    {
+     "case_id": "PTL_036",
+     "title": "【咪咕APP内赛事票务H5端】未设置售票时间限制的票档完全按项目设置规则售卖",
+     "priority": "P1",
+     "steps": 1,
+     "result": "pass",
+     "source": "售卖时间限制测试用例（含结果）.xlsx"
+    }
+   ]
+  }
+ }
+}

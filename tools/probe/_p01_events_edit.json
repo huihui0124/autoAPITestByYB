@@ -1,0 +1,44 @@
+{
+ "totalNum": 3,
+ "pageIndex": 1,
+ "pageSize": 10,
+ "data": [
+  {
+   "id": 7904075,
+   "productId": 316963,
+   "ticketGradeCount": 5,
+   "soldCount": 0,
+   "canSaleCount": 399996,
+   "eventName": "多次核销场次（3次）",
+   "startTime": 1854012600000,
+   "endTime": 1854018000000,
+   "isExpire": false,
+   "maxVerifyCount": 3
+  },
+  {
+   "id": 7904073,
+   "productId": 316963,
+   "ticketGradeCount": 5,
+   "soldCount": 0,
+   "canSaleCount": 399996,
+   "eventName": "非条件退场次",
+   "startTime": 1853926200000,
+   "endTime": 1853931600000,
+   "isExpire": false,
+   "maxVerifyCount": 1
+  },
+  {
+   "id": 7904071,
+   "productId": 316963,
+   "ticketGradeCount": 5,
+   "soldCount": 0,
+   "canSaleCount": 399996,
+   "eventName": "条件退场次",
+   "startTime": 1853839800000,
+   "endTime": 1853845200000,
+   "isExpire": false,
+   "maxVerifyCount": 1
+  }
+ ],
+ "hasMore": false
+}

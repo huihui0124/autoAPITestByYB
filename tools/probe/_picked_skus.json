@@ -1,0 +1,560 @@
+{
+ "222837": {
+  "productId": 222837,
+  "productName": "电子票-条件退-非实名yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 42,
+  "sku_alive": 36,
+  "cheapest": {
+   "skuId": 10636881,
+   "price": 0.01,
+   "count": 883
+  },
+  "by_price": {
+   "0.01": [
+    10636881,
+    10636883,
+    10636885
+   ],
+   "0.1": [
+    10636905,
+    10636907,
+    10636909
+   ],
+   "1.0": [
+    10636929,
+    10636931,
+    10636933
+   ],
+   "10.0": [
+    10637255,
+    10636953,
+    10636955
+   ],
+   "100.0": [
+    10636977,
+    10636983,
+    10636985
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7903493,
+    "name": "2026-09-26 17:50",
+    "maxVerifyCount": 1,
+    "canSaleNum": 110
+   },
+   {
+    "productEventId": 7903431,
+    "name": "邀请函库存占用测试",
+    "maxVerifyCount": 1,
+    "canSaleNum": 11
+   },
+   {
+    "productEventId": 7903697,
+    "name": "开售时间限制测试",
+    "maxVerifyCount": 1,
+    "canSaleNum": 110
+   },
+   {
+    "productEventId": 7903541,
+    "name": "赠票测试2",
+    "maxVerifyCount": 1,
+    "canSaleNum": 0
+   },
+   {
+    "productEventId": 7903529,
+    "name": "赠票测试",
+    "maxVerifyCount": 1,
+    "canSaleNum": 95
+   },
+   {
+    "productEventId": 7902005,
+    "name": "2027-02-04 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 4988
+   },
+   {
+    "productEventId": 7902007,
+    "name": "2027-02-06 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 4994
+   },
+   {
+    "productEventId": 7902009,
+    "name": "2027-02-08 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 4998
+   },
+   {
+    "productEventId": 7902011,
+    "name": "2027-02-10 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 4996
+   },
+   {
+    "productEventId": 7902013,
+    "name": "测试",
+    "maxVerifyCount": 1,
+    "canSaleNum": 4997
+   },
+   {
+    "productEventId": 7902015,
+    "name": "2027-02-14 19:30",
+    "maxVerifyCount": 999,
+    "canSaleNum": 4991
+   },
+   {
+    "productEventId": 7902017,
+    "name": "测试多次核销",
+    "maxVerifyCount": 3,
+    "canSaleNum": 4872
+   }
+  ]
+ },
+ "222665": {
+  "productId": 222665,
+  "productName": "测试ff",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 4,
+  "sku_alive": 4,
+  "cheapest": {
+   "skuId": 10636741,
+   "price": 0.0,
+   "count": 429
+  },
+  "by_price": {
+   "0.0": [
+    10636741
+   ],
+   "0.01": [
+    10636715,
+    10636717,
+    10636719
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7898113,
+    "name": "2026-10-01 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 31
+   },
+   {
+    "productEventId": 7898115,
+    "name": "2026-10-12 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 100
+   },
+   {
+    "productEventId": 7898117,
+    "name": "2026-10-23 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 569
+   }
+  ]
+ },
+ "222305": {
+  "productId": 222305,
+  "productName": "选座-电子票-非实名yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 12,
+  "sku_alive": 12,
+  "cheapest": {
+   "skuId": 10635563,
+   "price": 0.01,
+   "count": 58
+  },
+  "by_price": {
+   "0.01": [
+    10635563
+   ],
+   "0.02": [
+    10635561
+   ],
+   "0.03": [
+    10635559
+   ],
+   "0.04": [
+    10635557
+   ],
+   "0.05": [
+    10635555
+   ],
+   "100.0": [
+    10635939,
+    10636175,
+    10636251
+   ],
+   "160.0": [
+    10636173
+   ],
+   "220.0": [
+    10636171
+   ],
+   "320.0": [
+    10636169
+   ],
+   "380.0": [
+    10636167
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7891751,
+    "name": "2026-09-17 周四 00:00",
+    "maxVerifyCount": 1,
+    "canSaleNum": 444
+   },
+   {
+    "productEventId": 7892257,
+    "name": "2026-09-18 周五 00:00",
+    "maxVerifyCount": 1,
+    "canSaleNum": 445
+   },
+   {
+    "productEventId": 7893725,
+    "name": "2026-09-20 周日 00:00",
+    "maxVerifyCount": 1,
+    "canSaleNum": 450
+   },
+   {
+    "productEventId": 7893101,
+    "name": "2026-09-21 周一 00:00",
+    "maxVerifyCount": 1,
+    "canSaleNum": 450
+   }
+  ]
+ },
+ "222339": {
+  "productId": 222339,
+  "productName": "选座-快递-实名测试yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 10,
+  "sku_alive": 10,
+  "cheapest": {
+   "skuId": 10635719,
+   "price": 0.01,
+   "count": 120
+  },
+  "by_price": {
+   "0.01": [
+    10635719
+   ],
+   "0.02": [
+    10635717
+   ],
+   "0.03": [
+    10635715
+   ],
+   "0.04": [
+    10635713
+   ],
+   "0.05": [
+    10635711
+   ],
+   "100.0": [
+    10637265
+   ],
+   "160.0": [
+    10637263
+   ],
+   "220.0": [
+    10637261
+   ],
+   "320.0": [
+    10637259
+   ],
+   "380.0": [
+    10637257
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7892399,
+    "name": "2026-09-17 周四 00:00",
+    "maxVerifyCount": 1,
+    "canSaleNum": 870
+   },
+   {
+    "productEventId": 7901625,
+    "name": "2026-09-27 周日 00:00",
+    "maxVerifyCount": 1,
+    "canSaleNum": 450
+   }
+  ]
+ },
+ "222617": {
+  "productId": 222617,
+  "productName": "电子票-实名制yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 3,
+  "sku_alive": 3,
+  "cheapest": {
+   "skuId": 10636685,
+   "price": 1.0,
+   "count": 78
+  },
+  "by_price": {
+   "1.0": [
+    10636685,
+    10636877,
+    10637139
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7902741,
+    "name": "2026-04-18 周六 19:00",
+    "maxVerifyCount": 4,
+    "canSaleNum": 0
+   },
+   {
+    "productEventId": 7902743,
+    "name": "2026-04-19 周日 14:00",
+    "maxVerifyCount": 2,
+    "canSaleNum": 0
+   },
+   {
+    "productEventId": 7897379,
+    "name": "2026-08-29 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 82
+   },
+   {
+    "productEventId": 7901931,
+    "name": "2026-09-19 19:30",
+    "maxVerifyCount": 5,
+    "canSaleNum": 1101
+   },
+   {
+    "productEventId": 7902747,
+    "name": "2026-11-18  18:00",
+    "maxVerifyCount": 10,
+    "canSaleNum": 1098
+   }
+  ]
+ },
+ "222619": {
+  "productId": 222619,
+  "productName": "身份证入场测试yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 1,
+  "sku_alive": 1,
+  "cheapest": {
+   "skuId": 10636687,
+   "price": 1.0,
+   "count": 93
+  },
+  "by_price": {
+   "1.0": [
+    10636687
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7897411,
+    "name": "2026-08-29 19:30",
+    "maxVerifyCount": 5,
+    "canSaleNum": 96
+   }
+  ]
+ },
+ "222915": {
+  "productId": 222915,
+  "productName": "电子票-一单一证yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 1,
+  "sku_alive": 1,
+  "cheapest": {
+   "skuId": 10637271,
+   "price": 0.01,
+   "count": 1991
+  },
+  "by_price": {
+   "0.01": [
+    10637271
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7903523,
+    "name": "2026-09-27 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 109
+   },
+   {
+    "productEventId": 7903545,
+    "name": "2026-09-30 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 1991
+   }
+  ]
+ },
+ "222359": {
+  "productId": 222359,
+  "productName": "选座预售测试yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 5,
+  "sku_alive": 5,
+  "cheapest": {
+   "skuId": 10636671,
+   "price": 0.01,
+   "count": 140
+  },
+  "by_price": {
+   "0.01": [
+    10636671
+   ],
+   "0.02": [
+    10636669
+   ],
+   "0.03": [
+    10636667
+   ],
+   "0.04": [
+    10636665
+   ],
+   "0.05": [
+    10636663
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7892829,
+    "name": "2026-09-17 周四 00:00",
+    "maxVerifyCount": 1,
+    "canSaleNum": 900
+   }
+  ]
+ },
+ "222297": {
+  "productId": 222297,
+  "productName": "选座测试yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 1,
+  "sku_alive": 0,
+  "cheapest": null,
+  "by_price": {},
+  "events": [
+   {
+    "productEventId": 7891611,
+    "name": "2026-08-14 周五 21:58",
+    "maxVerifyCount": 1,
+    "canSaleNum": 450
+   },
+   {
+    "productEventId": 7894797,
+    "name": "2026-08-21 周五 19:31",
+    "maxVerifyCount": 1,
+    "canSaleNum": 0
+   }
+  ]
+ },
+ "222307": {
+  "productId": 222307,
+  "productName": "可退款-电子票测试yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 7,
+  "sku_alive": 7,
+  "cheapest": {
+   "skuId": 10635885,
+   "price": 0.01,
+   "count": 11
+  },
+  "by_price": {
+   "0.01": [
+    10635885,
+    10635887
+   ],
+   "1.0": [
+    10635587,
+    10635589,
+    10635591
+   ],
+   "2.0": [
+    10635567
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7891797,
+    "name": "2026-08-15 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 227
+   },
+   {
+    "productEventId": 7891879,
+    "name": "2026-08-07 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 33
+   }
+  ]
+ },
+ "222261": {
+  "productId": 222261,
+  "productName": "电子票非实名yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 1,
+  "sku_alive": 1,
+  "cheapest": {
+   "skuId": 10635405,
+   "price": 0.01,
+   "count": 83
+  },
+  "by_price": {
+   "0.01": [
+    10635405
+   ]
+  },
+  "events": [
+   {
+    "productEventId": 7890949,
+    "name": "2026-08-15 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 85
+   }
+  ]
+ },
+ "222267": {
+  "productId": 222267,
+  "productName": "多场次单票档限购测试yb",
+  "supportSelectSeat": null,
+  "needRealNameInfo": null,
+  "sku_total": 0,
+  "sku_alive": 0,
+  "cheapest": null,
+  "by_price": {},
+  "events": [
+   {
+    "productEventId": 7892519,
+    "name": "2026-08-10 20:06",
+    "maxVerifyCount": 1,
+    "canSaleNum": 111
+   },
+   {
+    "productEventId": 7891043,
+    "name": "2026-08-16 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 211
+   },
+   {
+    "productEventId": 7891045,
+    "name": "2026-08-17 19:30",
+    "maxVerifyCount": 1,
+    "canSaleNum": 211
+   }
+  ]
+ }
+}

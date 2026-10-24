@@ -1,0 +1,8645 @@
+{
+ "seatAreaList": [
+  {
+   "areaId": 11157,
+   "areaName": "一楼",
+   "width": 34,
+   "height": 16,
+   "venueId": 115667,
+   "status": 1,
+   "eventId": 7904381,
+   "seatTemplateUrl": "https://sspw-hdsz2.eos-suzhou-4.cmecloud.cn/file/defaultSeatTemplate.xlsx",
+   "seatTemplateType": "PLANAR",
+   "seatList": [
+    {
+     "seatId": 5208089,
+     "seatName": "17",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208091,
+     "seatName": "15",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208093,
+     "seatName": "13",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208095,
+     "seatName": "11",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208097,
+     "seatName": "9",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208099,
+     "seatName": "7",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208101,
+     "seatName": "5",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208103,
+     "seatName": "3",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208105,
+     "seatName": "1",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208107,
+     "seatName": "2",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208109,
+     "seatName": "4",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208111,
+     "seatName": "6",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208113,
+     "seatName": "8",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208115,
+     "seatName": "10",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208117,
+     "seatName": "12",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208119,
+     "seatName": "14",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208121,
+     "seatName": "16",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFF7CBC9",
+     "remarks": "",
+     "skuId": 10637529,
+     "ticket": {
+      "priceName": "VVIP票档",
+      "price": 1
+     }
+    },
+    {
+     "seatId": 5208123,
+     "seatName": "18",
+     "rowName": "1排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 1,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208125,
+     "seatName": "29",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 2,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208127,
+     "seatName": "27",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208129,
+     "seatName": "25",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208131,
+     "seatName": "23",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208133,
+     "seatName": "21",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208135,
+     "seatName": "19",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208137,
+     "seatName": "17",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208139,
+     "seatName": "15",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208141,
+     "seatName": "13",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208143,
+     "seatName": "11",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208145,
+     "seatName": "9",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208147,
+     "seatName": "7",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208149,
+     "seatName": "5",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208151,
+     "seatName": "3",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208153,
+     "seatName": "1",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208155,
+     "seatName": "2",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208157,
+     "seatName": "4",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208159,
+     "seatName": "6",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208161,
+     "seatName": "8",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208163,
+     "seatName": "10",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208165,
+     "seatName": "12",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208167,
+     "seatName": "14",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208169,
+     "seatName": "16",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208171,
+     "seatName": "18",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208173,
+     "seatName": "20",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208175,
+     "seatName": "22",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208177,
+     "seatName": "24",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208179,
+     "seatName": "26",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208181,
+     "seatName": "28",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208183,
+     "seatName": "30",
+     "rowName": "2排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 33,
+     "y": 2,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208185,
+     "seatName": "31",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 1,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208187,
+     "seatName": "29",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 2,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208189,
+     "seatName": "27",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208191,
+     "seatName": "25",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208193,
+     "seatName": "23",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208195,
+     "seatName": "21",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208197,
+     "seatName": "19",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208199,
+     "seatName": "17",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208201,
+     "seatName": "15",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208203,
+     "seatName": "13",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208205,
+     "seatName": "11",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208207,
+     "seatName": "9",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208209,
+     "seatName": "7",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208211,
+     "seatName": "5",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208213,
+     "seatName": "3",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208215,
+     "seatName": "1",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208217,
+     "seatName": "2",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208219,
+     "seatName": "4",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208221,
+     "seatName": "6",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208223,
+     "seatName": "8",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208225,
+     "seatName": "10",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208227,
+     "seatName": "12",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208229,
+     "seatName": "14",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208231,
+     "seatName": "16",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208233,
+     "seatName": "18",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208235,
+     "seatName": "20",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208237,
+     "seatName": "22",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208239,
+     "seatName": "24",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208241,
+     "seatName": "26",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208243,
+     "seatName": "28",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208245,
+     "seatName": "30",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 33,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208247,
+     "seatName": "32",
+     "rowName": "3排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 34,
+     "y": 3,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208249,
+     "seatName": "29",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 2,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208251,
+     "seatName": "27",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208253,
+     "seatName": "25",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208255,
+     "seatName": "23",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208257,
+     "seatName": "21",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208259,
+     "seatName": "19",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208261,
+     "seatName": "17",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208263,
+     "seatName": "15",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208265,
+     "seatName": "13",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208267,
+     "seatName": "11",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208269,
+     "seatName": "9",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208271,
+     "seatName": "7",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208273,
+     "seatName": "5",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208275,
+     "seatName": "3",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208277,
+     "seatName": "1",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208279,
+     "seatName": "2",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208281,
+     "seatName": "4",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208283,
+     "seatName": "6",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208285,
+     "seatName": "8",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208287,
+     "seatName": "10",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208289,
+     "seatName": "12",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208291,
+     "seatName": "14",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208293,
+     "seatName": "16",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208295,
+     "seatName": "18",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208297,
+     "seatName": "20",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208299,
+     "seatName": "22",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208301,
+     "seatName": "24",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208303,
+     "seatName": "26",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208305,
+     "seatName": "28",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208307,
+     "seatName": "30",
+     "rowName": "4排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 33,
+     "y": 4,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208309,
+     "seatName": "29",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 2,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208311,
+     "seatName": "27",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208313,
+     "seatName": "25",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208315,
+     "seatName": "23",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208317,
+     "seatName": "21",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208319,
+     "seatName": "19",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208321,
+     "seatName": "17",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208323,
+     "seatName": "15",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208325,
+     "seatName": "13",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208327,
+     "seatName": "11",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208329,
+     "seatName": "9",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208331,
+     "seatName": "7",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208333,
+     "seatName": "5",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208335,
+     "seatName": "3",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208337,
+     "seatName": "1",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208339,
+     "seatName": "2",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208341,
+     "seatName": "4",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208343,
+     "seatName": "6",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208345,
+     "seatName": "8",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208347,
+     "seatName": "10",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208349,
+     "seatName": "12",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208351,
+     "seatName": "14",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208353,
+     "seatName": "16",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208355,
+     "seatName": "18",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208357,
+     "seatName": "20",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFD2F2EB",
+     "remarks": "",
+     "skuId": 10637531,
+     "ticket": {
+      "priceName": "VIP票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208359,
+     "seatName": "22",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208361,
+     "seatName": "24",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208363,
+     "seatName": "26",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208365,
+     "seatName": "28",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208367,
+     "seatName": "30",
+     "rowName": "5排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 33,
+     "y": 5,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208369,
+     "seatName": "27",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208371,
+     "seatName": "25",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208373,
+     "seatName": "23",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208375,
+     "seatName": "21",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208377,
+     "seatName": "19",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208379,
+     "seatName": "17",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208381,
+     "seatName": "15",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208383,
+     "seatName": "13",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208385,
+     "seatName": "11",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208387,
+     "seatName": "9",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208389,
+     "seatName": "7",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208391,
+     "seatName": "5",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208393,
+     "seatName": "3",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208395,
+     "seatName": "1",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208397,
+     "seatName": "2",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208399,
+     "seatName": "4",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208401,
+     "seatName": "6",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208403,
+     "seatName": "8",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208405,
+     "seatName": "10",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208407,
+     "seatName": "12",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208409,
+     "seatName": "14",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208411,
+     "seatName": "16",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208413,
+     "seatName": "18",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208415,
+     "seatName": "20",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208417,
+     "seatName": "22",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208419,
+     "seatName": "24",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208421,
+     "seatName": "26",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208423,
+     "seatName": "28",
+     "rowName": "6排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 6,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208425,
+     "seatName": "27",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208427,
+     "seatName": "25",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208429,
+     "seatName": "23",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208431,
+     "seatName": "21",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208433,
+     "seatName": "19",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208435,
+     "seatName": "17",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208437,
+     "seatName": "15",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208439,
+     "seatName": "13",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208441,
+     "seatName": "11",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208443,
+     "seatName": "9",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208445,
+     "seatName": "7",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208447,
+     "seatName": "5",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208449,
+     "seatName": "3",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208451,
+     "seatName": "1",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208453,
+     "seatName": "2",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208455,
+     "seatName": "4",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208457,
+     "seatName": "6",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208459,
+     "seatName": "8",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208461,
+     "seatName": "10",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208463,
+     "seatName": "12",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208465,
+     "seatName": "14",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208467,
+     "seatName": "16",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208469,
+     "seatName": "18",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208471,
+     "seatName": "20",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208473,
+     "seatName": "22",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208475,
+     "seatName": "24",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208477,
+     "seatName": "26",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208479,
+     "seatName": "28",
+     "rowName": "7排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 7,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208481,
+     "seatName": "27",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208483,
+     "seatName": "25",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208485,
+     "seatName": "23",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208487,
+     "seatName": "21",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208489,
+     "seatName": "19",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208491,
+     "seatName": "17",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208493,
+     "seatName": "15",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208495,
+     "seatName": "13",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208497,
+     "seatName": "11",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208499,
+     "seatName": "9",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208501,
+     "seatName": "7",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208503,
+     "seatName": "5",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208505,
+     "seatName": "3",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208507,
+     "seatName": "1",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208509,
+     "seatName": "2",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208511,
+     "seatName": "4",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208513,
+     "seatName": "6",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208515,
+     "seatName": "8",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208517,
+     "seatName": "10",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208519,
+     "seatName": "12",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208521,
+     "seatName": "14",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208523,
+     "seatName": "16",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208525,
+     "seatName": "18",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208527,
+     "seatName": "20",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208529,
+     "seatName": "22",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208531,
+     "seatName": "24",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208533,
+     "seatName": "26",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208535,
+     "seatName": "28",
+     "rowName": "8排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 8,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208537,
+     "seatName": "27",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208539,
+     "seatName": "25",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208541,
+     "seatName": "23",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208543,
+     "seatName": "21",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208545,
+     "seatName": "19",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208547,
+     "seatName": "17",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208549,
+     "seatName": "15",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208551,
+     "seatName": "13",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208553,
+     "seatName": "11",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208555,
+     "seatName": "9",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208557,
+     "seatName": "7",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208559,
+     "seatName": "5",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208561,
+     "seatName": "3",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208563,
+     "seatName": "1",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208565,
+     "seatName": "2",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208567,
+     "seatName": "4",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208569,
+     "seatName": "6",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208571,
+     "seatName": "8",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208573,
+     "seatName": "10",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208575,
+     "seatName": "12",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208577,
+     "seatName": "14",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208579,
+     "seatName": "16",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208581,
+     "seatName": "18",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208583,
+     "seatName": "20",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208585,
+     "seatName": "22",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208587,
+     "seatName": "24",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208589,
+     "seatName": "26",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208591,
+     "seatName": "28",
+     "rowName": "9排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 9,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208593,
+     "seatName": "29",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 2,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208595,
+     "seatName": "27",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208597,
+     "seatName": "25",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208599,
+     "seatName": "23",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208601,
+     "seatName": "21",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208603,
+     "seatName": "19",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208605,
+     "seatName": "17",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208607,
+     "seatName": "15",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208609,
+     "seatName": "13",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208611,
+     "seatName": "11",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208613,
+     "seatName": "9",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208615,
+     "seatName": "7",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208617,
+     "seatName": "5",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208619,
+     "seatName": "3",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208621,
+     "seatName": "1",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208623,
+     "seatName": "2",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208625,
+     "seatName": "4",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208627,
+     "seatName": "6",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208629,
+     "seatName": "8",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208631,
+     "seatName": "10",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208633,
+     "seatName": "12",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208635,
+     "seatName": "14",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208637,
+     "seatName": "16",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208639,
+     "seatName": "18",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208641,
+     "seatName": "20",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208643,
+     "seatName": "22",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208645,
+     "seatName": "24",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208647,
+     "seatName": "26",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208649,
+     "seatName": "28",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208651,
+     "seatName": "30",
+     "rowName": "10排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 33,
+     "y": 10,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208653,
+     "seatName": "29",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 2,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208655,
+     "seatName": "27",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208657,
+     "seatName": "25",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208659,
+     "seatName": "23",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208661,
+     "seatName": "21",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208663,
+     "seatName": "19",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208665,
+     "seatName": "17",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208667,
+     "seatName": "15",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208669,
+     "seatName": "13",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208671,
+     "seatName": "11",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208673,
+     "seatName": "9",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208675,
+     "seatName": "7",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208677,
+     "seatName": "5",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208679,
+     "seatName": "3",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208681,
+     "seatName": "1",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208683,
+     "seatName": "2",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208685,
+     "seatName": "4",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208687,
+     "seatName": "6",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208689,
+     "seatName": "8",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208691,
+     "seatName": "10",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208693,
+     "seatName": "12",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208695,
+     "seatName": "14",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208697,
+     "seatName": "16",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFDF4D0",
+     "remarks": "",
+     "skuId": 10637533,
+     "ticket": {
+      "priceName": "C票档",
+      "price": 0.01
+     }
+    },
+    {
+     "seatId": 5208699,
+     "seatName": "18",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208701,
+     "seatName": "20",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208703,
+     "seatName": "22",
+     "rowName": "11排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 11,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208705,
+     "seatName": "27",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208707,
+     "seatName": "25",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208709,
+     "seatName": "23",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208711,
+     "seatName": "21",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208713,
+     "seatName": "19",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208715,
+     "seatName": "17",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208717,
+     "seatName": "15",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208719,
+     "seatName": "13",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208721,
+     "seatName": "11",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208723,
+     "seatName": "9",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208725,
+     "seatName": "7",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208727,
+     "seatName": "5",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208729,
+     "seatName": "3",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208731,
+     "seatName": "1",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208733,
+     "seatName": "2",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208735,
+     "seatName": "4",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208737,
+     "seatName": "6",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208739,
+     "seatName": "8",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208741,
+     "seatName": "10",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208743,
+     "seatName": "12",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208745,
+     "seatName": "14",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208747,
+     "seatName": "16",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208749,
+     "seatName": "18",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208751,
+     "seatName": "20",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208753,
+     "seatName": "22",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208755,
+     "seatName": "24",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208757,
+     "seatName": "26",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208759,
+     "seatName": "28",
+     "rowName": "12排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 12,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208761,
+     "seatName": "27",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208763,
+     "seatName": "25",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208765,
+     "seatName": "23",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208767,
+     "seatName": "21",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208769,
+     "seatName": "19",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208771,
+     "seatName": "17",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208773,
+     "seatName": "15",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208775,
+     "seatName": "13",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208777,
+     "seatName": "11",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208779,
+     "seatName": "9",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208781,
+     "seatName": "7",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208783,
+     "seatName": "5",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208785,
+     "seatName": "3",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208787,
+     "seatName": "1",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208789,
+     "seatName": "2",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208791,
+     "seatName": "4",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208793,
+     "seatName": "6",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208795,
+     "seatName": "8",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208797,
+     "seatName": "10",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208799,
+     "seatName": "12",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208801,
+     "seatName": "14",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208803,
+     "seatName": "16",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208805,
+     "seatName": "18",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208807,
+     "seatName": "20",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208809,
+     "seatName": "22",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208811,
+     "seatName": "24",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208813,
+     "seatName": "26",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208815,
+     "seatName": "28",
+     "rowName": "13排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 13,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208817,
+     "seatName": "27",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208819,
+     "seatName": "25",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208821,
+     "seatName": "23",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208823,
+     "seatName": "21",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208825,
+     "seatName": "19",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208827,
+     "seatName": "17",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208829,
+     "seatName": "15",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208831,
+     "seatName": "13",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208833,
+     "seatName": "11",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208835,
+     "seatName": "9",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208837,
+     "seatName": "7",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208839,
+     "seatName": "5",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208841,
+     "seatName": "3",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208843,
+     "seatName": "1",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208845,
+     "seatName": "2",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208847,
+     "seatName": "4",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208849,
+     "seatName": "6",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208851,
+     "seatName": "8",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208853,
+     "seatName": "10",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208855,
+     "seatName": "12",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208857,
+     "seatName": "14",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208859,
+     "seatName": "16",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFC5D5FB",
+     "remarks": "",
+     "skuId": 10637535,
+     "ticket": {
+      "priceName": "B票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208861,
+     "seatName": "18",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208863,
+     "seatName": "20",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208865,
+     "seatName": "22",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208867,
+     "seatName": "24",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208869,
+     "seatName": "26",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208871,
+     "seatName": "28",
+     "rowName": "14排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 14,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208873,
+     "seatName": "27",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208875,
+     "seatName": "25",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208877,
+     "seatName": "23",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208879,
+     "seatName": "21",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208881,
+     "seatName": "19",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208883,
+     "seatName": "17",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208885,
+     "seatName": "15",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208887,
+     "seatName": "13",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208889,
+     "seatName": "11",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208891,
+     "seatName": "9",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208893,
+     "seatName": "7",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208895,
+     "seatName": "5",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208897,
+     "seatName": "3",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208899,
+     "seatName": "1",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208901,
+     "seatName": "2",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208903,
+     "seatName": "4",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208905,
+     "seatName": "6",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208907,
+     "seatName": "8",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208909,
+     "seatName": "10",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208911,
+     "seatName": "12",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208913,
+     "seatName": "14",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208915,
+     "seatName": "16",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208917,
+     "seatName": "18",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208919,
+     "seatName": "20",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208921,
+     "seatName": "22",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208923,
+     "seatName": "24",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208925,
+     "seatName": "26",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208927,
+     "seatName": "28",
+     "rowName": "15排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 15,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208929,
+     "seatName": "29",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 2,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208931,
+     "seatName": "27",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 3,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208933,
+     "seatName": "25",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 4,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208935,
+     "seatName": "23",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 5,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208937,
+     "seatName": "21",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 6,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208939,
+     "seatName": "19",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 7,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208941,
+     "seatName": "17",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 8,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208943,
+     "seatName": "15",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 10,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208945,
+     "seatName": "13",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 11,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208947,
+     "seatName": "11",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 12,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208949,
+     "seatName": "9",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 13,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208951,
+     "seatName": "7",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 14,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208953,
+     "seatName": "5",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 15,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208955,
+     "seatName": "3",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 16,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208957,
+     "seatName": "1",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 17,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208959,
+     "seatName": "2",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 18,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208961,
+     "seatName": "4",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 19,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208963,
+     "seatName": "6",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 20,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208965,
+     "seatName": "8",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 21,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208967,
+     "seatName": "10",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 22,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208969,
+     "seatName": "12",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 23,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208971,
+     "seatName": "14",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 24,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208973,
+     "seatName": "16",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 25,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208975,
+     "seatName": "18",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 27,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208977,
+     "seatName": "20",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 28,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208979,
+     "seatName": "22",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 29,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208981,
+     "seatName": "24",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 30,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208983,
+     "seatName": "26",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 31,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208985,
+     "seatName": "28",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 32,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    },
+    {
+     "seatId": 5208987,
+     "seatName": "30",
+     "rowName": "16排",
+     "areaId": 11157,
+     "floorName": "一楼",
+     "sectionName": "",
+     "x": 33,
+     "y": 16,
+     "enable": true,
+     "saleStatus": 0,
+     "color": "FFFADEC1",
+     "remarks": "",
+     "skuId": 10637537,
+     "ticket": {
+      "priceName": "A票档",
+      "price": 0
+     }
+    }
+   ]
+  }
+ ],
+ "productSkuList": [
+  {
+   "priceName": "VVIP票档",
+   "spuTicketCategoryId": 26153591,
+   "productTicketCategoryId": 7904387,
+   "soldCount": 0,
+   "skuId": 10637529,
+   "cspuId": 6476005,
+   "price": 1.0,
+   "stockNum": 16,
+   "lockStockNum": 0,
+   "skuAddition": {
+    "supportSelectSeat": true,
+    "bindId": "ce93f8ad-60b1-4786-98dd-2f08d3ef36bd-7904381"
+   }
+  },
+  {
+   "priceName": "VIP票档",
+   "spuTicketCategoryId": 26153593,
+   "productTicketCategoryId": 7904389,
+   "soldCount": 0,
+   "skuId": 10637531,
+   "cspuId": 6476007,
+   "price": 0.01,
+   "stockNum": 82,
+   "lockStockNum": 0,
+   "skuAddition": {
+    "supportSelectSeat": true,
+    "bindId": "37c47ced-0902-46fb-8008-283fb75016fb-7904381"
+   }
+  },
+  {
+   "priceName": "C票档",
+   "spuTicketCategoryId": 26153595,
+   "productTicketCategoryId": 7904391,
+   "soldCount": 0,
+   "skuId": 10637533,
+   "cspuId": 6476009,
+   "price": 0.01,
+   "stockNum": 174,
+   "lockStockNum": 0,
+   "skuAddition": {
+    "supportSelectSeat": true,
+    "bindId": "86df0eb3-efea-4889-b860-5c9d9a7e3a1a-7904381"
+   }
+  },
+  {
+   "priceName": "B票档",
+   "spuTicketCategoryId": 26153597,
+   "productTicketCategoryId": 7904393,
+   "soldCount": 0,
+   "skuId": 10637535,
+   "cspuId": 6476011,
+   "price": 0.0,
+   "stockNum": 108,
+   "lockStockNum": 0,
+   "skuAddition": {
+    "supportSelectSeat": true,
+    "bindId": "a0930225-47bb-4f75-84e7-17ff7cc4d75d-7904381"
+   }
+  },
+  {
+   "priceName": "A票档",
+   "spuTicketCategoryId": 26153599,
+   "productTicketCategoryId": 7904395,
+   "soldCount": 0,
+   "skuId": 10637537,
+   "cspuId": 6476013,
+   "price": 0.0,
+   "stockNum": 70,
+   "lockStockNum": 0,
+   "skuAddition": {
+    "supportSelectSeat": true,
+    "bindId": "bba6a0ed-05f7-4d5b-95c5-736d60a74de6-7904381"
+   }
+  }
+ ],
+ "seatHasBizId": false
+}

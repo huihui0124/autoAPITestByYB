@@ -1,0 +1,146 @@
+{
+ "events": {
+  "events": [
+   {
+    "spuEventId": 26153317,
+    "productEventId": 7904071,
+    "name": "条件退场次",
+    "startTime": 1853839800000,
+    "endTime": 1853845200000,
+    "seatImageName": "",
+    "totalStockNum": 399996,
+    "lockStockNum": 0,
+    "soldNum": 0,
+    "canSaleNum": 399996,
+    "maxVerifyCount": 1
+   },
+   {
+    "spuEventId": 26153319,
+    "productEventId": 7904073,
+    "name": "非条件退场次",
+    "startTime": 1853926200000,
+    "endTime": 1853931600000,
+    "seatImageName": "",
+    "totalStockNum": 399996,
+    "lockStockNum": 0,
+    "soldNum": 0,
+    "canSaleNum": 399996,
+    "maxVerifyCount": 1
+   },
+   {
+    "spuEventId": 26153321,
+    "productEventId": 7904075,
+    "name": "多次核销场次（3次）",
+    "startTime": 1854012600000,
+    "endTime": 1854018000000,
+    "seatImageName": "",
+    "totalStockNum": 399996,
+    "lockStockNum": 0,
+    "soldNum": 0,
+    "canSaleNum": 399996,
+    "maxVerifyCount": 3
+   }
+  ]
+ },
+ "tickets": [
+  {
+   "eventId": 7904071,
+   "eventName": "条件退场次",
+   "startTime": 1853839800000,
+   "endTime": 1853845200000,
+   "ticketList": [
+    {
+     "ticketId": 7904077,
+     "ticketName": "0元票档",
+     "ticketPrice": 0
+    },
+    {
+     "ticketId": 7904079,
+     "ticketName": "0.01元票档",
+     "ticketPrice": 0.01
+    },
+    {
+     "ticketId": 7904081,
+     "ticketName": "未开售0元",
+     "ticketPrice": 0
+    },
+    {
+     "ticketId": 7904083,
+     "ticketName": "限购2张",
+     "ticketPrice": 0
+    },
+    {
+     "ticketId": 7904085,
+     "ticketName": "售罄票档",
+     "ticketPrice": 0
+    }
+   ]
+  },
+  {
+   "eventId": 7904073,
+   "eventName": "非条件退场次",
+   "startTime": 1853926200000,
+   "endTime": 1853931600000,
+   "ticketList": [
+    {
+     "ticketId": 7904077,
+     "ticketName": "0元票档",
+     "ticketPrice": 0
+    },
+    {
+     "ticketId": 7904079,
+     "ticketName": "0.01元票档",
+     "ticketPrice": 0.01
+    },
+    {
+     "ticketId": 7904081,
+     "ticketName": "未开售0元",
+     "ticketPrice": 0
+    },
+    {
+     "ticketId": 7904083,
+     "ticketName": "限购2张",
+     "ticketPrice": 0
+    },
+    {
+     "ticketId": 7904085,
+     "ticketName": "售罄票档",
+     "ticketPrice": 0
+    }
+   ]
+  },
+  {
+   "eventId": 7904075,
+   "eventName": "多次核销场次（3次）",
+   "startTime": 1854012600000,
+   "endTime": 1854018000000,
+   "ticketList": [
+    {
+     "ticketId": 7904077,
+     "ticketName": "0元票档",
+     "ticketPrice": 0
+    },
+    {
+     "ticketId": 7904079,
+     "ticketName": "0.01元票档",
+     "ticketPrice": 0.01
+    },
+    {
+     "ticketId": 7904081,
+     "ticketName": "未开售0元",
+     "ticketPrice": 0
+    },
+    {
+     "ticketId": 7904083,
+     "ticketName": "限购2张",
+     "ticketPrice": 0
+    },
+    {
+     "ticketId": 7904085,
+     "ticketName": "售罄票档",
+     "ticketPrice": 0
+    }
+   ]
+  }
+ ]
+}

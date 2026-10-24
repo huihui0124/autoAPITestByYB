@@ -1,0 +1,294 @@
+{
+ "test:P12": {
+  "productId": 222981,
+  "key": "P12",
+  "name": "选座-一单一证-电子票-yb",
+  "env": "test",
+  "seat": true,
+  "realName": 2,
+  "delivery": "eticket",
+  "donorKey": "P10",
+  "requirement": "seat=true, realName=2, delivery=eticket",
+  "requirementUsages": [],
+  "events": {
+   "未开售场次": {
+    "eventId": 7904861,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 10637829,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 10637831,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 10637833,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 10637835,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 10637837,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   },
+   "条件退场次": {
+    "eventId": 7904863,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 10637839,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 10637841,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 10637843,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 10637845,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 10637847,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   },
+   "非条件退场次": {
+    "eventId": 7904865,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 10637849,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 10637851,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 10637853,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 10637855,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 10637857,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   },
+   "多次核销场次": {
+    "eventId": 7904867,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 10637859,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 10637861,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 10637863,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 10637865,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 10637867,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   },
+   "18+可购场次": {
+    "eventId": 7904869,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 10637869,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 10637871,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 10637873,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 10637875,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 10637877,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   }
+  },
+  "createdAt": "2026-09-30 14:55:23",
+  "onSale": true
+ },
+ "prod:P12": {
+  "productId": 31009,
+  "key": "P12",
+  "name": "选座-一单一证-电子票-yb",
+  "env": "prod",
+  "seat": true,
+  "realName": 2,
+  "delivery": "eticket",
+  "donorKey": "P10",
+  "requirement": "seat=true, realName=2, delivery=eticket",
+  "requirementUsages": [],
+  "events": {
+   "未开售场次": {
+    "eventId": 464587,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 3355,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 3361,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 3367,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 3373,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 3379,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   },
+   "条件退场次": {
+    "eventId": 464593,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 3385,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 3391,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 3397,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 3403,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 3409,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   },
+   "非条件退场次": {
+    "eventId": 464599,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 3415,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 3421,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 3427,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 3433,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 3439,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   },
+   "多次核销场次": {
+    "eventId": 464605,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 3445,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 3451,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 3457,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 3463,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 3469,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   },
+   "18+可购场次": {
+    "eventId": 464611,
+    "skus": {
+     "VVIP票档": {
+      "skuId": 3475,
+      "price": "1.0"
+     },
+     "VIP票档": {
+      "skuId": 3481,
+      "price": "0.01"
+     },
+     "C票档": {
+      "skuId": 3487,
+      "price": "0.01"
+     },
+     "B票档": {
+      "skuId": 3493,
+      "price": "0.0"
+     },
+     "A票档": {
+      "skuId": 3499,
+      "price": "0.0"
+     }
+    },
+    "maxVerifyCount": 1
+   }
+  },
+  "createdAt": "2026-09-30 15:17:16",
+  "onSale": true
+ }
+}

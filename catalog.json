@@ -1,0 +1,3414 @@
+{
+ "schema": "migu-ticket-test-catalog/v1",
+ "version": 7.04,
+ "updated": "2026-09-30",
+ "note": "测试专用商品清单 —— C 端下单的**唯一白名单**。清单初始为空：用户在 B 端新建好测试项目后，把 productId/场次/票档 用 ./run.sh catalog add 登记进来，用例才能下单。落在清单外的 (productId, skuId) 会被 client.create_order 直接拦掉。 | 2026-09-30 修正：生产 5 个『多次核销场次』登记值 3→1（生产未发布核销次数配置，实际恒 1 次）",
+ "legend": {
+  "status": {
+   "ready": "已建好、实测可下单（有 productId + skuId）→ 白名单放行",
+   "rework": "现有商品可复用，但形态与目标不一致（如交付方式需在 B 端改），改造前请勿当目标形态使用",
+   "planned": "待新建（无 productId）→ 不在白名单，用例会自动跳过"
+  },
+  "delivery": {
+   "eticket": "电子票 [4] —— 出码，B 端扫码核销",
+   "paper": "纸质票 [1]=快递 / [3]=自取 / [1,3]=同时可选",
+   "idcard": "身份证件入场 [11] —— 无码核销，强制实名"
+  },
+  "realName": {
+   "0": "非实名",
+   "1": "一票一证（每张票一个证件）",
+   "2": "一单一证（整单共用一份证件）"
+  },
+  "usages": {
+   "baseline": "主基线项目（日常回归主战场）",
+   "free_fixture": "0 元免付票档，下单即出票 → 造核销/退款夹具（不花钱）",
+   "paid": "★ 全清单唯一的「主支付目标」（真实支付 / 部分退默认打这一档，必须唯一）",
+   "paid_regular": "同一项目常规场次下的有价档（备选支付目标，不参与默认取用）",
+   "partial_refund": "支持整单多份、按份部分退",
+   "multi_verify": "场次核销次数 > 1（多次核销）",
+   "refund": "整单可退",
+   "seat": "选座项目（场次需配座位图）",
+   "idcard": "身份证件入场（无码核销）",
+   "paper": "纸质票（快递/自取履约）"
+  }
+ },
+ "environments": {
+  "test": {
+   "storeId": "1",
+   "site": "https://union-passport.migu.cn",
+   "note": "2026-09-30 用户在 B 端按《测试商品建设清单》矩阵新建 11 个项目并登记。P01=基线（free_fixture/paid 落点），生产环境尚未登记。",
+   "projects": [
+    {
+     "key": "P01",
+     "name": "非选座-非实名-电子票-yb",
+     "productId": 222945,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）；3 场次×5 票档，基线项目，日常回归主战场",
+     "profile": {
+      "seat": false,
+      "realName": 0,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [
+      "baseline"
+     ],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904071,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637339,
+         "price": "0",
+         "usages": [
+          "free_fixture"
+         ]
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637341,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 10637343,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 10637357,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904073,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637347,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637351,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 10637355,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 10637363,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 7904075,
+       "name": "多次核销场次（3次）",
+       "maxVerifyCount": 3,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637345,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637349,
+         "price": "0.01",
+         "usages": [
+          "paid",
+          "partial_refund",
+          "multi_verify",
+          "refund"
+         ]
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 10637353,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 10637361,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P02",
+     "name": "非选座-非实名-快递/自取-yb",
+     "productId": 222947,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）",
+     "profile": {
+      "seat": false,
+      "realName": 0,
+      "delivery": "paper",
+      "deliveryType": [
+       1,
+       3
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904115,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637379,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637381,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 10637383,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 10637385,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904117,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637369,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637371,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 10637373,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 10637375,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P03",
+     "name": "非选座-非实名-运费0.01-yb",
+     "productId": 222949,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）；快递-only 且运费 0.01 元 → 运费金额相关用例专用",
+     "profile": {
+      "seat": false,
+      "realName": 0,
+      "delivery": "paper",
+      "deliveryType": [
+       1
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904159,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637399,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637401,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637403,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 10637405,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904161,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637389,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637391,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637393,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 10637395,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P04",
+     "name": "非选座-一票一证-电子票-yb",
+     "productId": 222951,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）",
+     "profile": {
+      "seat": false,
+      "realName": 1,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904201,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637409,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637411,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637413,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637419,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904217,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637423,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637427,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637431,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637443,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 7904219,
+       "name": "多次核销场次（3次）",
+       "maxVerifyCount": 3,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637421,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637425,
+         "price": "0.01",
+         "usages": [
+          "multi_verify"
+         ]
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637429,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637441,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P05",
+     "name": "非选座-一票一证-快递自取-yb",
+     "productId": 222953,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）",
+     "profile": {
+      "seat": false,
+      "realName": 1,
+      "delivery": "paper",
+      "deliveryType": [
+       1,
+       3
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904249,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637445,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637447,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637449,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637455,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904251,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637457,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637459,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637461,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637467,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P06",
+     "name": "非选座-一票一证-证件入场-yb",
+     "productId": 222955,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）",
+     "profile": {
+      "seat": false,
+      "realName": 1,
+      "delivery": "idcard",
+      "deliveryType": [
+       11
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904293,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637481,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637485,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637489,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637497,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904295,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637469,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637471,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637473,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637477,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 7904297,
+       "name": "多次核销场次（3次）",
+       "maxVerifyCount": 3,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637479,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637483,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637487,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637495,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P07",
+     "name": "非选座-一单一证-电子票-yb",
+     "productId": 222957,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）",
+     "profile": {
+      "seat": false,
+      "realName": 2,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904337,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637499,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637501,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637503,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637507,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904339,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637509,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637513,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637517,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637525,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 7904341,
+       "name": "多次核销场次（3次）",
+       "maxVerifyCount": 3,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 10637511,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 10637515,
+         "price": "0.01",
+         "usages": [
+          "multi_verify"
+         ]
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 10637519,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 10637527,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P08",
+     "name": "选座-非实名-电子票-yb",
+     "productId": 222959,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）",
+     "profile": {
+      "seat": true,
+      "realName": 0,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904381,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637529,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637531,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637533,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637535,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637537,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904383,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637539,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637541,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637543,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637545,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637547,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 7904385,
+       "name": "多次核销场次",
+       "maxVerifyCount": 3,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637549,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637551,
+         "price": "0.01",
+         "usages": [
+          "multi_verify"
+         ]
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637553,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637555,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637557,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P09",
+     "name": "选座-非实名-快递/自取-yb",
+     "productId": 222961,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）",
+     "profile": {
+      "seat": true,
+      "realName": 0,
+      "delivery": "paper",
+      "deliveryType": [
+       1,
+       3
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904429,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637559,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637561,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637563,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637565,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637567,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904431,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637569,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637571,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637573,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637575,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637577,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P10",
+     "name": "选座-一票一证-电子票-yb",
+     "productId": 222963,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）",
+     "profile": {
+      "seat": true,
+      "realName": 1,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904475,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637579,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637581,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637583,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637585,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637587,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904477,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637589,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637591,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637593,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637595,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637597,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 7904479,
+       "name": "多次核销场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637599,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637601,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637603,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637605,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637607,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "age18",
+       "eventId": 7904491,
+       "name": "18+可购场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637609,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637611,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637613,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637615,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637617,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "not_started",
+       "eventId": 7904493,
+       "name": "未开售场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637619,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637621,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637623,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637625,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637627,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P11",
+     "name": "选座-一票一证-快递/自取-yb",
+     "productId": 222965,
+     "status": "ready",
+     "note": "用户 2026-09-30 在 B 端新建（接口实测配置一致）",
+     "profile": {
+      "seat": true,
+      "realName": 1,
+      "delivery": "paper",
+      "deliveryType": [
+       1,
+       3
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 7904525,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637639,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637641,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637643,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637645,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637647,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904527,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637629,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637631,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637633,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637635,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637637,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "age18",
+       "eventId": 7904529,
+       "name": "18+可购场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637649,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637651,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637653,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637655,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637657,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P12",
+     "name": "选座-一单一证-电子票-yb",
+     "productId": 222981,
+     "status": "ready",
+     "note": "由 tools/casegen 自动创建（2026-09-30 14:55:23，骨架 P10）｜来源用例环境要求：seat=true, realName=2, delivery=eticket",
+     "profile": {
+      "seat": true,
+      "realName": 2,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "not_started",
+       "eventId": 7904861,
+       "name": "未开售场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637829,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637831,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637833,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637835,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637837,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "refundable",
+       "eventId": 7904863,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637839,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637841,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637843,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637845,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637847,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 7904865,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637849,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637851,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637853,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637855,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637857,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 7904867,
+       "name": "多次核销场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637859,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637861,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637863,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637865,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637867,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "age18",
+       "eventId": 7904869,
+       "name": "18+可购场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 10637869,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 10637871,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 10637873,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 10637875,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 10637877,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "prod": {
+   "storeId": 888,
+   "site": "https://ticket.miguvideo.com",
+   "note": "生产 888 店测试专用项目（B 端 1:1 复刻自测试店）。\n差异：生产无多次核销/年龄限购功能，相关字段仅作标记；P01=127 由 build_prod_p01.py 构建，其余由 build_prod_projects.py 构建。\n生成时间：2026-09-30 01:55",
+   "projects": [
+    {
+     "key": "P01",
+     "name": "非选座-非实名-电子票-yb",
+     "productId": 127,
+     "status": "ready",
+     "note": "生产复刻自测试店 222945（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致）；3 场次×5 票档，基线项目，日常回归主战场）",
+     "profile": {
+      "seat": false,
+      "realName": 0,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [
+      "baseline"
+     ],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 3241,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1099,
+         "price": "0",
+         "usages": [
+          "free_fixture"
+         ]
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1105,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 1111,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 1117,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 3235,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1069,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1075,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 1081,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 1087,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 3229,
+       "name": "多次核销场次（3次）",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1039,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1045,
+         "price": "0.01",
+         "usages": [
+          "paid",
+          "partial_refund",
+          "multi_verify",
+          "refund"
+         ]
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 1051,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 1057,
+         "price": "0",
+         "usages": []
+        }
+       ],
+       "note": "生产 B 端未发布「核销次数」配置：events/edit 无 maxVerifyCount 字段、events/list 不返回该字段，票据 totalVerifyCount 恒为 1。本场次在测试环境是 3 次，生产实际只核销 1 次 —— 保留场次名以便对照，勿当 3 次用。"
+      }
+     ]
+    },
+    {
+     "key": "P02",
+     "name": "非选座-非实名-快递/自取-yb",
+     "productId": 133,
+     "status": "ready",
+     "note": "生产复刻自测试店 222947（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致））",
+     "profile": {
+      "seat": false,
+      "realName": 0,
+      "delivery": "paper",
+      "deliveryType": [
+       1,
+       3
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 3361,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1129,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1135,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 1141,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 1147,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 3367,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1159,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1165,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售0元",
+         "skuId": 1171,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 1177,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P03",
+     "name": "非选座-非实名-运费0.01-yb",
+     "productId": 139,
+     "status": "ready",
+     "note": "生产复刻自测试店 222949（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致）；快递-only 且运费 0.01 元 → 运费金额相关用例专用）",
+     "profile": {
+      "seat": false,
+      "realName": 0,
+      "delivery": "paper",
+      "deliveryType": [
+       1
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 3487,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1189,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1195,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1201,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 1207,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 3493,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1219,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1225,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1231,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "limit2",
+         "name": "限购2张",
+         "skuId": 1237,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P04",
+     "name": "非选座-一票一证-电子票-yb",
+     "productId": 145,
+     "status": "ready",
+     "note": "生产复刻自测试店 222951（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致））",
+     "profile": {
+      "seat": false,
+      "realName": 1,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 3613,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1249,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1255,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1261,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1273,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 3619,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1279,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1285,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1291,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1303,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 3625,
+       "name": "多次核销场次（3次）",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1309,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1315,
+         "price": "0.01",
+         "usages": [
+          "multi_verify"
+         ]
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1321,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1333,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ],
+       "note": "生产 B 端未发布「核销次数」配置：events/edit 无 maxVerifyCount 字段、events/list 不返回该字段，票据 totalVerifyCount 恒为 1。本场次在测试环境是 3 次，生产实际只核销 1 次 —— 保留场次名以便对照，勿当 3 次用。"
+      }
+     ]
+    },
+    {
+     "key": "P05",
+     "name": "非选座-一票一证-快递自取-yb",
+     "productId": 151,
+     "status": "ready",
+     "note": "生产复刻自测试店 222953（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致））",
+     "profile": {
+      "seat": false,
+      "realName": 1,
+      "delivery": "paper",
+      "deliveryType": [
+       1,
+       3
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 3745,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1339,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1345,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1351,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1363,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 3751,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1369,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1375,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1381,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1393,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P06",
+     "name": "非选座-一票一证-证件入场-yb",
+     "productId": 157,
+     "status": "ready",
+     "note": "生产复刻自测试店 222955（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致））",
+     "profile": {
+      "seat": false,
+      "realName": 1,
+      "delivery": "idcard",
+      "deliveryType": [
+       11
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 3877,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1429,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1435,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1441,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1453,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 3871,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1399,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1405,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1411,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1423,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 3883,
+       "name": "多次核销场次（3次）",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1459,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1465,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1471,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1483,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ],
+       "note": "生产 B 端未发布「核销次数」配置：events/edit 无 maxVerifyCount 字段、events/list 不返回该字段，票据 totalVerifyCount 恒为 1。本场次在测试环境是 3 次，生产实际只核销 1 次 —— 保留场次名以便对照，勿当 3 次用。"
+      }
+     ]
+    },
+    {
+     "key": "P07",
+     "name": "非选座-一单一证-电子票-yb",
+     "productId": 163,
+     "status": "ready",
+     "note": "生产复刻自测试店 222957（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致））",
+     "profile": {
+      "seat": false,
+      "realName": 2,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 4003,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1489,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1495,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1501,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1513,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 4015,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1549,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1555,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1561,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1573,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 4009,
+       "name": "多次核销场次（3次）",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "free",
+         "name": "0元票档",
+         "skuId": 1519,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "paid",
+         "name": "0.01元票档",
+         "skuId": 1525,
+         "price": "0.01",
+         "usages": [
+          "multi_verify"
+         ]
+        },
+        {
+         "key": "not_started",
+         "name": "未开售票档",
+         "skuId": 1531,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "age18",
+         "name": "18+可购",
+         "skuId": 1543,
+         "price": "0",
+         "usages": [
+          "age18"
+         ]
+        }
+       ],
+       "note": "生产 B 端未发布「核销次数」配置：events/edit 无 maxVerifyCount 字段、events/list 不返回该字段，票据 totalVerifyCount 恒为 1。本场次在测试环境是 3 次，生产实际只核销 1 次 —— 保留场次名以便对照，勿当 3 次用。"
+      }
+     ]
+    },
+    {
+     "key": "P08",
+     "name": "选座-非实名-电子票-yb",
+     "productId": 169,
+     "status": "ready",
+     "note": "生产复刻自测试店 222959（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致））",
+     "profile": {
+      "seat": true,
+      "realName": 0,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 4135,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1579,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1585,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1591,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1597,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1603,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 4141,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1609,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1615,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1621,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1627,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1633,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 4147,
+       "name": "多次核销场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1639,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1645,
+         "price": "0.01",
+         "usages": [
+          "multi_verify"
+         ]
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1651,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1657,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1663,
+         "price": "0",
+         "usages": []
+        }
+       ],
+       "note": "生产 B 端未发布「核销次数」配置：events/edit 无 maxVerifyCount 字段、events/list 不返回该字段，票据 totalVerifyCount 恒为 1。本场次在测试环境是 3 次，生产实际只核销 1 次 —— 保留场次名以便对照，勿当 3 次用。"
+      }
+     ]
+    },
+    {
+     "key": "P09",
+     "name": "选座-非实名-快递/自取-yb",
+     "productId": 175,
+     "status": "ready",
+     "note": "生产复刻自测试店 222961（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致））",
+     "profile": {
+      "seat": true,
+      "realName": 0,
+      "delivery": "paper",
+      "deliveryType": [
+       1,
+       3
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 4273,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1669,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1675,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1681,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1687,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1693,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 4279,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1699,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1705,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1711,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1717,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1723,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P10",
+     "name": "选座-一票一证-电子票-yb",
+     "productId": 181,
+     "status": "ready",
+     "note": "生产复刻自测试店 222963（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致））",
+     "profile": {
+      "seat": true,
+      "realName": 1,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 4405,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1759,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1765,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1771,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1777,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1783,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 4411,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1789,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1795,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1801,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1807,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1813,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 4417,
+       "name": "多次核销场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1819,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1825,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1831,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1837,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1843,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "age18",
+       "eventId": 4423,
+       "name": "18+可购场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1849,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1855,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1861,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1867,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1873,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "not_started",
+       "eventId": 4399,
+       "name": "未开售场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1729,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1735,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1741,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1747,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1753,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P11",
+     "name": "选座-一票一证-快递/自取-yb",
+     "productId": 187,
+     "status": "ready",
+     "note": "生产复刻自测试店 222965（原 note：用户 2026-09-30 在 B 端新建（接口实测配置一致））",
+     "profile": {
+      "seat": true,
+      "realName": 1,
+      "delivery": "paper",
+      "deliveryType": [
+       1,
+       3
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "refundable",
+       "eventId": 4513,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1879,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1885,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1891,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1897,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1903,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 4519,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1909,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1915,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1921,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1927,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1933,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "age18",
+       "eventId": 4525,
+       "name": "18+可购场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 1939,
+         "price": "1",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 1945,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 1951,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 1957,
+         "price": "0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 1963,
+         "price": "0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "P12",
+     "name": "选座-一单一证-电子票-yb",
+     "productId": 31009,
+     "status": "ready",
+     "note": "由 tools/casegen 自动创建（2026-09-30 15:17:16，骨架 P10）｜来源用例环境要求：seat=true, realName=2, delivery=eticket",
+     "profile": {
+      "seat": true,
+      "realName": 2,
+      "delivery": "eticket",
+      "deliveryType": [
+       4
+      ]
+     },
+     "usages": [],
+     "events": [
+      {
+       "key": "not_started",
+       "eventId": 464587,
+       "name": "未开售场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 3355,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 3361,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 3367,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 3373,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 3379,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "refundable",
+       "eventId": 464593,
+       "name": "条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 3385,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 3391,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 3397,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 3403,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 3409,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "non_refundable",
+       "eventId": 464599,
+       "name": "非条件退场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 3415,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 3421,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 3427,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 3433,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 3439,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "multi_verify",
+       "eventId": 464605,
+       "name": "多次核销场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 3445,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 3451,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 3457,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 3463,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 3469,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      },
+      {
+       "key": "age18",
+       "eventId": 464611,
+       "name": "18+可购场次",
+       "maxVerifyCount": 1,
+       "skus": [
+        {
+         "key": "vvip",
+         "name": "VVIP票档",
+         "skuId": 3475,
+         "price": "1.0",
+         "usages": []
+        },
+        {
+         "key": "vip",
+         "name": "VIP票档",
+         "skuId": 3481,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "c",
+         "name": "C票档",
+         "skuId": 3487,
+         "price": "0.01",
+         "usages": []
+        },
+        {
+         "key": "b",
+         "name": "B票档",
+         "skuId": 3493,
+         "price": "0.0",
+         "usages": []
+        },
+        {
+         "key": "a",
+         "name": "A票档",
+         "skuId": 3499,
+         "price": "0.0",
+         "usages": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,14 @@
+# 咪咕票务「上线验证」回归 —— Python 依赖
+# 安装：python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+#
+# 另外需要系统级安装 Allure 命令行（生成可视化报告）：
+#   brew install allure
+pytest==9.1.1
+allure-pytest==2.16.1
+requests==2.34.2
+urllib3==2.8.0
+qrcode==8.2
+pillow==12.3.0
+# 仅 `python -m migu_api.bticket harvest`（从 Chrome 取 B 端会话）需要，用于解密
+# Cookie 库里的 v10 Cookie。没装也能跑 —— 会自动退回系统 openssl 命令行。
+pycryptodome==3.23.0

@@ -1,0 +1,46 @@
+{
+ "activityName": "非选座-非实名-电子票-yb",
+ "supportSelectSeat": false,
+ "categoryId": 4,
+ "superCategoryId": 1,
+ "city": {
+  "poiValueId": 68971
+ },
+ "venue": {
+  "poiValueId": 115667
+ },
+ "displayType": 1,
+ "poster": "https://ticket-img.miguvideo.com/poster/1/63a4fed3d1794e69a1ec1b6c3cd0e428.jpg",
+ "activityDesc": "",
+ "deliveryInfo": {
+  "deliveryType": [
+   4
+  ],
+  "deliveryOrigin": "HAOMAI"
+ },
+ "goodsGroupInfo": {
+  "groupIds": [
+   2115
+  ]
+ },
+ "goodsTagInfo": {
+  "tagIds": [
+   23
+  ]
+ },
+ "recommendWords": "",
+ "activityDuration": "",
+ "purchaseTips": "<p>入场时间</p><p>请于开始前约30分钟入场</p><p>&nbsp;</p><p>禁止携带物品</p><p>由于安保和版权的原因，大多数赛事、展览及比赛场所禁止携带食品、饮料、专业摄录设备、打火机等物品，请您注意现场工作人员和广播的提示，予以配合</p><p>&nbsp;</p><p>寄存说明</p><p>无寄存处，请自行保管携带物品，谨防贵重物品丢失</p><p>&nbsp;</p><p>异常排单说明</p><p>对于异常订购行为，即使订单成立或者生效，我们保留取消相应订单的权利</p><p>&nbsp;</p><p>发票说明</p><p>该发票由赛事方提供。请在赛事开始前通过【我的-联系客服】提交发票申请，一般赛事结束后1个月内开具。</p><p>&nbsp;</p><p>特殊提示</p><p>因市场变化、不可抗力等客观情形以及赛事票随订随售的性质，可能导致的赛事变更、取消等情况，客服会及时与您联系确认变更或退款事宜。</p>",
+ "visible": true,
+ "popTipsSwitch": false,
+ "popTipsTitle": "",
+ "popTipsContent": "",
+ "needRealNameInfo": 0,
+ "thirdVerificationType": "Event_End_24H_After",
+ "onSale": false,
+ "purchaseTimeStatus": 2,
+ "channelId": 19,
+ "channelType": 0,
+ "canConsumeAfterEndTime": 1,
+ "ticketTips": ""
+}
