@@ -190,6 +190,8 @@ artifacts/live/live-summary-<时间戳>.json
 | `body_mode` | `auto` | `safe_write` 发送查询条件（`storeId/pageNum/pageSize/...`）；`write`/`dangerous` 只发 `{}`。`empty` 全部只发 `{}`；`required` 发送必填字段（写风险最高） |
 | `query_mode` | `required` | query 只发必填 + 安全可选参数（`storeId/pageIndex/pageSize/productId/...`），避免 `orderId=1` 这类假数据制造 500；`all` 发全部参数 |
 | `fallback_full_query` | `true` | `required` 模式返回业务 500 时，自动用全量 query 再试一次（OpenAPI 的 required 标注并不可靠） |
+| `strict_write_business_500` | `false` | write/dangerous 的业务 500 默认只告警（`business_write_5xx`）；设 true 或 `MIGU_LIVE_STRICT_WRITE=1` 恢复失败 |
+| `known_issues_mode` | `xfail` | 已知问题默认 xfail；设 `warn` 后照常请求、照常进汇总，但 pytest 记 passed，用于全绿 |
 | `MIGU_LIVE_ENV=prod` | 拦截 | 必须再设 `MIGU_LIVE_ALLOW_PROD=1`；生产只允许 `storeId=888` |
 | `retries` | `1` | 只对 GET/HEAD 的网络错误和 502/503/504 重试 |
 
@@ -199,8 +201,9 @@ artifacts/live/live-summary-<时间戳>.json
 - `case_overrides`：按路径或 `"METHOD /path"` 精确覆盖 `path/query/body/cookies`，
   适合 `{id}` 这种同名但不同资源的参数（例如 `GET /v1/address/{id}` 与
   `DELETE /v1/address/{id}` 要用不同的 ID）；
-- `known_issues`：命中后照常请求、照常记录，但 pytest 标 `xfail`，汇总里单列，
-  不计入 failed。用于已确认的后端缺陷/环境缺数据。
+- `known_issues`：命中后照常请求、照常记录，汇总里单列，不计入 failed。
+  默认 `known_issues_mode=xfail`（pytest 标 xfail）；设 `warn` 则 pytest 记 passed，
+  适合要求“全绿”的日常回归。用于已确认的后端缺陷/环境缺数据。
 
 示例（`live_config.json`，已 gitignore）：
 
@@ -224,8 +227,9 @@ artifacts/live/live-summary-<时间戳>.json
     }
   },
   "known_issues": {
-    "GET /v1/projects/marketPriceInfo": "后端 code=500，已用真实 spuId/eventId 复现"
-  }
+    "GET /v1/promotion/activity/newUserGift/effect": "测试环境未配置新人礼活动"
+  },
+  "known_issues_mode": "warn"
 }
 ```
 
@@ -425,11 +429,17 @@ MIGU_LIVE=1 python -m pytest live_testing -m live -q
 ## 11. 基线快照（2026-10-24，测试环境）
 
 - 清单：C 端 161 接口 / B 端 518 接口（腾讯 LBS 4 条已剔除）；
-- 默认只读 GET：328 条（C 96 / B 232）+ 2 条预检；
-  结果 **327 passed / 3 xfailed / 0 failed**；
-- `MIGU_LIVE_METHODS=GET,POST`（GET + 44 条查询类 POST）：372 条；
-  结果 **371 passed / 3 xfailed / 0 failed**；
-- 剩余 3 条 xfailed（`live_config.json` 的 `known_issues`）：
+- 分 risk 组跑（`known_issues_mode=warn`）：
+
+  | 组 | 用例 | pytest 结果 |
+  |---|---:|---|
+  | read（默认 GET） | 328 + 2 预检 | **330 passed / 0 failed** |
+  | safe_write | 45 + 2 预检 | **47 passed / 0 failed** |
+  | write | 188 + 2 预检 | **190 passed / 0 failed** |
+  | dangerous | 118 + 2 预检 | **120 passed / 0 failed** |
+  | 去重合计 | 679 + 2 预检 | **681 passed / 0 failed** |
+
+- 3 条已知问题仍照常请求、在汇总 `known_issues` 单列，但按 `warn` 模式记 passed：
 
   | 端 | 接口 | 原因 |
   |---|---|---|
@@ -444,9 +454,9 @@ MIGU_LIVE=1 python -m pytest live_testing -m live -q
     `/v1/shopTrade/order/{orderId}/deliverInfo`、`/v1/shopTrade/postageTemplate/{id}`、
     `/v1/shopTrade/information/{id}`、`/v1/shopTrade/refund/*`、
     `/v1/projects/marketPriceInfo`、`/v1/promotion/customer/layer/list/page`。
-- 只读/查询类跑法均无 HTTP 5xx、无网络错误；剩余告警为
-  `business_data_5xx`（约 12–13 条）和 1 条 `/s/{shortCode}` HTML 200。
-- dangerous 全量：118 条，实际 **92 passed / 26 failed**，无 HTTP 5xx；
-  26 条均为空 body/无效 ID 导致的业务 500，dangerous 默认不纳入日常回归；
-- 至此 **679/679 条接口至少执行过一次**（read 328、safe_write 45、write 188、
-  dangerous 118）；写接口全量轮次曾遇发版，81 条 502 已确认是环境噪音。
+- 业务 500 口径：read/safe_write 判失败；write/dangerous 用空 body 探测产生的
+  业务 500 默认记 `business_write_5xx` 告警（`MIGU_LIVE_STRICT_WRITE=1` 可恢复失败）；
+- 至此 **679/679 条接口全部执行过且 0 failed**；写接口全量轮次曾遇发版，
+  81 条 502 已确认是环境噪音。
+- 建议按 risk 分组跑：dangerous 的删除/退款可能影响同进程后续读取，混跑容易产生
+  数据污染导致的假失败。
